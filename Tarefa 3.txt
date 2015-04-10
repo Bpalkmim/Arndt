@@ -1,0 +1,20 @@
+Tarefa 3
+
+Papel 1: Motorista usuário do aplicativo para "smarthphone"
+
+	O que os usuários necessitam:
+
+	- Um "smartphone" com GPS ativado.
+	- Aplicativo instalado em seu "smartphone".
+	- Conexão com a internet.
+
+
+	Requisitos não-funcionais:
+
+	- Como presume-se que o aplicativo será utilizado principalmente em área sem internet por wi-fi, ele deverá consumir a menor quantidade possível de banda de internet, a fim de minimizar o impacto do mesmo sobre o pacote de dados do usuário.
+
+	- A fim de manter o aplicativo rápido e responsivo e evitar gastos excessivos de bateria, o mesmo deverá minimizar o processamento de dados realizado pelo smartphone.
+	
+
+
+- Fiscal de vagas de um estacionamento
