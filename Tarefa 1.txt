@@ -1,0 +1,13 @@
+Tarefa 1
+
+	Visando facilitar a busca por vagas de estacionamento no Rio de Janeiro e no mundo, um grupo de alunos pensou em criar um aplicativo para "smartphones" que fosse capaz de ajudar motoristas a encontrar vagas.
+
+	Para ser capaz de localizar as vagas de estacionamento da melhor forma possível, o aplicativo deverá obter a localização geográfica do motorista no momento em que o mesmo pede para que o sistema faça a busca. Para isso, o aplicativo irá utilizar o GPS do "smartphone". A partir da localização que o GPS provê, o aplicativo entrará em contato com o servidor na web, que localizará as vagas mais próximas, e notificará o aplicativo no celular do usuário.
+
+	As vagas podem estar localizadas em estacionamentos privados (cobertos ou descobertos) ou na própria rua (estacionamentos rotativos), sobre a supervisão de um fiscal da prefeitura.
+
+	Um funcionário responsável pelo estacionamento deverá controlar o número de vagas do mesmo e, para tal, irá utilizar uma aplicação cliente capaz de atualizar o servidor sobre a capacidade de vagas do estacionamento. O aplicativo não informará sobre vagas que não possuem um responsável por seu mapeamento, como vagas abertas em calçadas ou na beirada de ruas.
+
+	Para que um estacionamento passe a ser monitorado pelo aplicativo, os responsáveis pelo mesmo deverão cadastrá-los em um site fornecido pela empresa do aplicativo. No processo de cadastro, o responsável pelo estacionamento deverá fornecer informações detalhadas sobre o mesmo, como preço e horário de funcionamento. Por fim, o estacionamento passará por um processo de validação antes de ser liberado para os usuários.
+
+	Além das informações de vaga do estacionamento, o sistema do aplicativo também será capaz de informar o usuário sobre o preço do mesmo e quaisquer outras informações adicionais que o responsável pelo estacionamento deseje comunicar.
