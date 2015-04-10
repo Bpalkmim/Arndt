@@ -10,4 +10,4 @@ Tarefa 1
 
 	Para que um estacionamento passe a ser monitorado pelo aplicativo, os responsáveis pelo mesmo deverão cadastrá-los em um site fornecido pela empresa do aplicativo. No processo de cadastro, o responsável pelo estacionamento deverá fornecer informações detalhadas sobre o mesmo, como preço e horário de funcionamento. Por fim, o estacionamento passará por um processo de validação antes de ser liberado para os usuários.
 
-	Além das informações de vaga do estacionamento, o sistema do aplicativo também será capaz de informar o usuário sobre o preço do mesmo e quaisquer outras informações adicionais que o responsável pelo estacionamento deseje comunicar.
+	Além das informações de vaga do estacionamento, o sistema do aplicativo também será capaz de informar o usuário motorista sobre o preço do mesmo e quaisquer outras informações adicionais que o responsável pelo estacionamento deseje comunicar.
