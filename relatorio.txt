@@ -44,5 +44,10 @@ Estudei os critérios de avaliação para a segunda tarefa.
 2h
 Gabriel
 Arquitetar e rever o sistema
-Terminei a arquitetura do sistema e verifiquei se a qualidade estava satisfatória.
+Terminei a arquitetura do sistema.
 
+11-04
+1h
+Gabriel
+Estudar
+Estudei como fazer as historietas.
