@@ -14,17 +14,35 @@ Redigimos a descrição inicial.
 1h
 Bernardo
 Redigir e rever a descrição inicial
-Revisou a descrição.
+Revisei a descrição.
 
 10-04
-0.5h
-Gabriel Renan
+1h
+Bernardo Gabriel
 Estudar
-Estudamos a linguagem que será utilizada no exercício 2
+Estudamos a linguagem que será utilizada no exercício 2.
 
 10-04
 1h
 Renan
 Redigir e rever a descrição inicial
-Começei a realizar a terceira tarefa
+Comecei a realizar a terceira tarefa.
+
+10-04
+1h
+Bernardo
+Arquitetar e rever o sistema
+Comecei a fazer a arquitetura do sistema.
+
+10-04
+1h
+Gabriel
+Estudar
+Estudei os critérios de avaliação para a segunda tarefa.
+
+11-04
+2h
+Gabriel
+Arquitetar e rever o sistema
+Terminei a arquitetura do sistema e verifiquei se a qualidade estava satisfatória.
 
