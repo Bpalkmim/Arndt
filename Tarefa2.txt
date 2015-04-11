@@ -1,0 +1,5 @@
+Falta a descrição inicial e a verificação da qualidade.
+
+Para a qualidade, ver a página 14 do slide: http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula06_RevisoesInspecoes_2.pdf
+
+A verificação da qualidade será feita em cima dos seguintes critérios: Explicitude, Necessidade, Consistência, Ausência de redundância, Verificabilidade, Testabilidade, Concisão, Compreensibilidade, Não-ambiguidade, Prioridade, Nivelamento, Viabilidade
