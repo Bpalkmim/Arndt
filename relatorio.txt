@@ -69,3 +69,15 @@ Redigi o primeiro caso de uso.
 Gabriel
 Redigir e rever os casos de uso
 Redigi o segundo caso de uso.
+
+13-04
+1h
+Renan
+Estudar
+Estudei sobre verificação de qualidade.
+
+13-04
+1h
+Renan
+Arquitetar e rever o sistema
+Defini os critérios de avaliação utilizados na verificação do diagrama.
