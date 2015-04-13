@@ -63,3 +63,9 @@ Redigi as historietas.
 Gabriel
 Redigir e rever os casos de uso
 Redigi o primeiro caso de uso.
+
+12-04
+1:30h
+Gabriel
+Redigir e rever os casos de uso
+Redigi o segundo caso de uso.

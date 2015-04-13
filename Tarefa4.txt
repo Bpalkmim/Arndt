@@ -3,7 +3,7 @@ Historietas
 Encontrar Vagas
 Como um motorista que possui um "smartphone", desejo que o aplicativo me informe onde estão as vagas mais próximas para que eu não perca tempo as procurando sozinho.
 
-Validar Vagas
+Informar Disponibilidade das Vagas
 Como funcionário do estacionamento, desejo facilmente atualizar o número de vagas pelas quais sou responsável para que: caso estas estejam disponíves, clientes sejam atraidos, e caso contrário, eles não fiquem insatisfeito com meu estabelecimento pela informação errada.
 
 Cadastrar Estacionamento
