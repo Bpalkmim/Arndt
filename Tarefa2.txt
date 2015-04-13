@@ -2,6 +2,39 @@ Descrição da Arquitetura
 
 A arquitetura do sistema consiste em 4 subsistemas: Um aplicativo móvel para motoristas (descrito nas linhas 14 e 15), um aplicativo móvel para funcionários dos estacionamentos (linhas 26 e 27), um site WEB (linha 31) e um servidor WEB (linha 20).
 
-Para a qualidade, ver a página 14 do slide: http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula06_RevisoesInspecoes_2.pdf
+A verificação da qualidade será feita em cima dos seguintes critérios: Explicitude, Necessidade, Consistência, Ausência de redundância, Verificabilidade, Testabilidade, Concisão, Compreensibilidade, Não-ambiguidade, Nivelamento, Viabilidade
 
-A verificação da qualidade será feita em cima dos seguintes critérios: Explicitude, Necessidade, Consistência, Ausência de redundância, Verificabilidade, Testabilidade, Concisão, Compreensibilidade, Não-ambiguidade, Prioridade, Nivelamento, Viabilidade
+- Explicitude
+Todos os itens especificados na descrição textual estão devidamente referenciados e explicados no diagrama de fluxo.
+
+- Necessidade
+Tendo em vista as especificação da primeira tarefa e o diagrama de fluxo constrído a partir dela, ambos não contém nada que possa ser eliminado sem afetar a qualidade do projeto.
+
+- Consistência
+O diagrama foi construído a partir da especificação da primeira tarefa e esta não possui contradições internas ou com o próprio diagrama.
+
+- Ausência de redundância
+Os itens do diagrama de fluxo estão especificados sem duplicação ou repetição.
+
+- Verificabilidade
+A satisfação dos itens do diagrama é objetivamente determinável.
+
+- Testabilidade
+O diagrama é verificável através de casos de teste, como será visto nos demais artefatos entregues junto com esse trabalho.
+
+- Concisão
+A especificação e o diagrama foram redigidos de forma sucinta.
+
+- Compreensibilidade
+O diagrama é compreensível para todos os tipos de leitores, até para os que não tem conhecimento de computação.
+
+- Não-ambiguidade
+Os itens do diagrama e suas relações não podem ser interpretados de formas diferentes, tendo apenas um significado.
+
+- Nivelamento
+O nível de abstração do diagrama está de acordo com a especificação textual descrita na primeira tarefa.
+
+- Viabilidade
+Os ítens e relações do diagrama são implementáveis pela equipe de desenvolvimento.
+
+
