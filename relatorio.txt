@@ -70,14 +70,38 @@ Gabriel
 Redigir e rever os casos de uso
 Redigi o segundo caso de uso.
 
-13-04
-1h
+12-04
+1:30h
 Renan
 Estudar
 Estudei sobre verificação de qualidade.
 
-13-04
+13/04
+2h
+Bernardo
+Redigir e rever os casos de uso
+Redigi o terceiro caso de uso e revisei os três.
+
+13/04
+1:30h
+Bernardo
+Planejar e rever o teste de aceitação
+Criei a lista de critérios, os descrevi e apliquei a um dos casos de uso.
+
+13/04
+1:30h
+Bernardo
+Planejar e rever o teste de aceitação
+Criei os dois casos de teste.
+
+13/04
 1h
+Bernardo
+Estudar
+Estudar critérios de verificação para o testador.
+
+13-04
+1:30h
 Renan
 Arquitetar e rever o sistema
 Defini os critérios de avaliação utilizados na verificação do diagrama.
