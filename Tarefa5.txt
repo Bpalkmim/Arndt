@@ -1,0 +1,94 @@
+Casos de Uso
+
+Formulário (aula 4 pg 14 slide 28)
+Caso de Uso
+Resumo
+Escopo
+Ator Principal
+Interessados
+Invariante
+Pré condições
+Acionamento
+Fluxo principal
+Fluxos alternativos
+Pós condições
+Garantia mínima
+Requisitos
+Regras de negócio
+Casos de uso correlatados
+Artefatos correlatados
+
+---
+
+Encontrar Vagas
+
+O usuário motorista deve inicializar o aplicativo e pedir que o sistema encontre vagas próximas a ele. Então o sistema as procura no banco de dados e informa o usuário.
+
+Aplicativo para "smartphone" para o motorista e sevidor WEB.
+
+Usuário motorista
+
+Usuário motorista
+    Objetivo: Encontrar vagas próximas a ele de maneira fácil.
+Aplicativo móvel
+    Objetivo: Informar ao servidor a localização da "smartphone" e receber as vagas mais próximas.
+GPS
+    Objetivo: Obter a localização do "smartphone".
+Servidor WEB
+    Objetivo: Acessar a base de dados e obter as vagas disponíveis próximas ao usuário.
+Base de dados de disponibiliade de vagas
+    Objetivo: Armazenar a localização das vagas e informações sobre sua disponibilidade. Além disso, dada uma localização deve ser capaz de encontrar as vagas mais próximas.
+
+A servidor web está operante e a base de dados atualizada.
+
+O usuário deve ter conexão com a web e o GPS de seu "smartphone" deve estar ligado.
+
+Inicia quando o usuário interagir com o aplicativo e solicitar a localização das vagas mais próximas.
+
+1. O motorista inicializa o aplicativo e solicita a localização das vagas mais próximas.
+2. O aplicativo chama o sistema de GPS e obtém a localização do "smartphone".
+3. O aplicativo envia a localização do "smartphone" ao servidor.
+4. O servidor obtém da base de dados as vagas próximas à localização recebida.
+5. O servidor retorna ao aplicativo a localização das vagas próximas.
+6. O servidor mostra em uma mapa a localização das vagas mais próximas
+
+Evento E1/2: O aplicativo de GPS está desativado
+    E1.1 O sistema informa ao usuário que o GPS esta desativado e pede para que ele o ative.
+    E1.2 Repete a partir de 1.
+Fim evento E1.
+Evento E2/3: O aplicativo não obtém conexão com a WEB.
+    E2.1 O sistem informa ao usuário que não pode obter acesso à WEB.
+    E2.2 Repete a pardir de 1.
+Fim evento E2
+Evento E3/4: O servidor não encontra vagas mais próximas na base de dados
+    E3.1 O servidor avisa ao aplicativo que não existem vagas próximas.
+    E3.2 O aplicativo informa ao usuário que não obtém próximas
+Fim evento E3
+Evento E4/5: O aplicativo não obtém resposta do servidor
+    E4.1 O aplicativo faz 3 tentativas de conexão.
+    E4.2 Se o aplicativo não obter resposta.
+        E4.2.1 O aplicativo informa ao usuário que não obteve resposta do servidor.
+        E4.2.2 Repete a partir de 1.
+    Fim se
+Fiem evento E4
+
+O motorista sabe a localização das vagas mais próximas.
+
+O aplicativo móvel sempre informa ao usuário caso algum problema ocorra.
+
+Segurança: Não deve-se acessar nenhuma informação pessoal do usuário.
+Eficiência: A busca deve ser rápida para que o retorno seja em menos de 30 segundos.
+IHC: A interface deve ser intuitiva para que o usuário consiga disparar o caso de uso.
+IHC: As mensagens de erros devem ser explicativas.
+
+n/a
+
+Validar Vagas
+Cadastrar Estacionamento
+
+Diagrama de fluxo de dados
+Historietas
+
+---
+
+

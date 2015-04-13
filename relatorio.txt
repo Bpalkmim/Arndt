@@ -57,3 +57,9 @@ Estudei como fazer as historietas.
 Gabriel
 Redigir e rever as historietas
 Redigi as historietas.
+
+12-04
+2h
+Gabriel
+Redigir e rever os casos de uso
+Redigi o primeiro caso de uso.
