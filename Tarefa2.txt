@@ -1,4 +1,6 @@
-Falta a descrição inicial e a verificação da qualidade.
+Descrição da Arquitetura
+
+A arquitetura do sistema consiste em 4 subsistemas: Um aplicativo móvel para motoristas (descrito nas linhas 14 e 15), um aplicativo móvel para funcionários dos estacionamentos (linhas 26 e 27), um site WEB (linha 31) e um servidor WEB (linha 20).
 
 Para a qualidade, ver a página 14 do slide: http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula06_RevisoesInspecoes_2.pdf
 
