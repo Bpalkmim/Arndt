@@ -1,0 +1,35 @@
+Tarefa 3
+
+Papel 1: Motorista usuário do aplicativo para "smartphone"
+
+	O que o usuário necessita:
+	- Um "smartphone" com GPS ativado.
+	- Aplicativo instalado em seu "smartphone".
+	- Conexão com a internet.
+
+	Requisitos não funcionais:
+	- Como se presume que o aplicativo será utilizado principalmente em área sem internet por wi-fi, ele deverá consumir a menor quantidade possível de banda de internet, a fim de minimizar o impacto do mesmo sobre o pacote de dados do usuário.
+	- A fim de manter o aplicativo rápido e responsivo e evitar gastos excessivos de bateria, o mesmo deverá minimizar o processamento de dados realizado pelo smartphone.
+	- O servidor deve estar constantemente ligado.
+	
+
+
+Papel 2: Fiscal de vagas de um estacionamento
+
+	O que esse usuário necessita:
+	- Um "smartphone" com GPS ativado.
+	- Aplicativo instalado em seu "smartphone".
+	- Conexão com a internet.
+
+	Requisitos não funcionais:
+	- A fim de manter o aplicativo rápido e responsivo e evitar gastos excessivos de bateria, o mesmo deverá minimizar o processamento de dados realizado pelo smartphone.
+
+Papel 3: Gerente de um estacionamento
+
+	O que esse usuário necessita:
+	- Um microcomputador.
+	- Conexão com a internet.
+
+	Requisitos não funcionais:
+	- Diminuir ao máximo o tempo do processo de validação de um estacionamento, a fim de permitir que um estacionamento comece o mais rápido possível a utilizar o sistema.
+	- O servidor deve estar constantemente ligado.
