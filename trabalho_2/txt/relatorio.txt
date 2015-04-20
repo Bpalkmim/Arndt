@@ -1,3 +1,11 @@
+Tipos de tarefa
+	- estudar
+	- redigir e rever caso de uso inicial
+	- arquitetar e rever o sistema
+	- redigir e rever as historietas
+	- redigir e rever os casos de uso
+	- planejar e rever o teste de aceitação
+
 20-04
 1h
 Bernardo Gabriel Renan
