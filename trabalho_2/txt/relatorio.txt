@@ -1,10 +1,19 @@
-Tipos de tarefa
-	- estudar
-	- redigir e rever caso de uso inicial
-	- arquitetar e rever o sistema
-	- redigir e rever as historietas
-	- redigir e rever os casos de uso
-	- planejar e rever o teste de aceitação
+Tipos de Tarefa
+Justificativa
+
+Estudar
+Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
+
+Corrigir e rever caso de uso inicial
+É essencial pois o trabalho inteiro se baseia neste caso de uso.
+
+Redigir e rever a lista de condições de entrada e de resultados
+Redigir e rever a tabela de decisão
+Redigir e rever os casos de teste
+Ilustar e rever a base de dados de teste
+Criar e rever a máquina de estados
+
+---
 
 20-04
 1h
