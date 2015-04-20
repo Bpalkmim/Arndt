@@ -4,7 +4,7 @@ Justificativa
 Estudar
 Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
 
-Corrigir e rever caso de uso inicial
+Corrigir e rever o caso de uso
 É essencial pois o trabalho inteiro se baseia neste caso de uso.
 
 Redigir e rever a lista de condições de entrada e de resultados
@@ -20,4 +20,10 @@ Criar e rever a máquina de estados
 Bernardo Gabriel Renan
 Estudar
 Estudamos o enunciado do trabalho em conjunto e discutimos a divisão de tarefas.
+
+20-04
+3h
+Bernardo Gabriel Renan
+Corrigir e rever o caso de uso
+Corrigimos e completamos o caso de uso inicial.
 
