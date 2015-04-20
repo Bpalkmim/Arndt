@@ -1,6 +1,7 @@
 Tipos de tarefa
-	- estudar
-	- redigir e rever caso de uso inicial
+	- Estudar
+	- Corrigir e rever caso de uso inicial
+
 	- arquitetar e rever o sistema
 	- redigir e rever as historietas
 	- redigir e rever os casos de uso
