@@ -1,30 +1,25 @@
-<<<<<<< HEAD
-Tipos de tarefa
-	- Estudar
-	- Corrigir e rever caso de uso inicial
-
-	- arquitetar e rever o sistema
-	- redigir e rever as historietas
-	- redigir e rever os casos de uso
-	- planejar e rever o teste de aceitação
-=======
-Tipos de Tarefa
-Justificativa
-
 Estudar
-Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
+Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
 
 Corrigir e rever o caso de uso
-É essencial pois o trabalho inteiro se baseia neste caso de uso.
+Justificativa: É essencial pois o trabalho inteiro se baseia neste caso de uso.
 
 Redigir e rever a lista de condições de entrada e de resultados
+Justificativa: 
+
 Redigir e rever a tabela de decisão
+Justificativa: 
+
 Redigir e rever os casos de teste
+Justificativa: 
+
 Ilustar e rever a base de dados de teste
+Justificativa: 
+
 Criar e rever a máquina de estados
+Justificativa: 
 
 ---
->>>>>>> origin/master
 
 20-04
 1h
@@ -38,3 +33,20 @@ Bernardo Gabriel Renan
 Corrigir e rever o caso de uso
 Corrigimos e completamos o caso de uso inicial.
 
+23-04
+1h
+Gabriel
+Estudar
+Estudei a matéria relacionada à lista de condições de entrada e de resultados.
+
+23-04
+1h
+Gabriel
+Redigir e rever a lista de condições de entrada e de resultados
+Redigi a lista de condições de entrada e resultados.
+
+23-04
+2h
+Gabriel
+Corrigir e rever o caso de uso
+Revi o caso de uso e adequei a lista de condições de entrada e resultados.
