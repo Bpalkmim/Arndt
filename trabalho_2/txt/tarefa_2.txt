@@ -1,6 +1,7 @@
 Tarefa 2
 
 TODO: Criar duas tabelas no word no formato
+      Terminar as dependências
 
 Condições | Explicação
 Cond 1    | abcdef
@@ -50,6 +51,9 @@ Ocorre quando o aplicativo obtém acesso à Internet, mas não obtém acesso ao 
 
 Raio de Busca Inválido
 Ocorre quando o motorista digita um raio de busca inválido.
+
+Vaga Não Encontrada
+Ocorre quando não há uma vaga no raio de busca.
 
 Cancelado
 Ocorre quando o motorista cancela a aplicação.

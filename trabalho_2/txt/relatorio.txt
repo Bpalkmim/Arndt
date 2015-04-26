@@ -50,3 +50,10 @@ Redigi a lista de condições de entrada e resultados.
 Gabriel
 Corrigir e rever o caso de uso
 Revi o caso de uso e adequei a lista de condições de entrada e resultados.
+
+26-04
+2h
+Gabriel
+Redigir e rever a tabela de decisão
+Montei a tabela de decisão.
+
