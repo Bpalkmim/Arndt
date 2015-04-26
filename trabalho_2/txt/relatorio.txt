@@ -50,3 +50,8 @@ Redigi a lista de condições de entrada e resultados.
 Gabriel
 Corrigir e rever o caso de uso
 Revi o caso de uso e adequei a lista de condições de entrada e resultados.
+
+25-04
+3h
+Estudar
+Estudei sobre tabela de decisão e teste dirigido por comportamento
