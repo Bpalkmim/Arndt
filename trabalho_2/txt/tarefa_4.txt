@@ -2,5 +2,82 @@ Tarefa 4
 
 TODO: Ver formato do fomulário na página 8 do slide http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula12_TesteFuncional_3.pdf
 
-Procurar estacionamento com raio de 200 metros
+-----
+
+Identificador do Caso de Teste: AchouVaga
+
+Descrição: O usuário busca uma vaga num raio de 200 metros e estaciona seu carro.
+
+Precondições:
+O servidor WEB está operante.
+O "smartphone" do motorista possui acesso à Internet.
+O sistema GPS está ativado.
+O raio de busca é válido.
+Há exatamente uma vaga no raio de busca de 200 metros.
+
+Ações do Usuário:
+Abrir o aplicativo.
+Selecionar que deseja definir raio de busca específico.
+Digitar no '200' no campo de entrada para o raio de busca.
+Clicar no botão para buscar vagas.
+Selecionar um dos estacionamentos da lista.
+Clicar no botão para o modo de navegação GPS
+Dirigir até a vaga e estacionar.
+
+Pós-condições:
+O usuário estacionou na vaga selecionada.
+O aplicativo reconhece que o motorista chegou até o local.
+O aplicativo mostra uma mensagem de sucesso para o usuário e finaliza.
+
+Critérios de Sucesso:
+O aplicativo validou o raio de busca, encontrou a localização do smartphode do usuário, entrou em contato com o servidor WEB, mostrou das vagas encontradas e guiou corretamente o usuário até a vaga.
+O servidor WEB encontrou a vaga no raio de busca determinado.
+
+-----
+
+Identificador do Caso de Teste: Cancelou
+
+Descrição: O motorista busca uma vaga no raio de busca padrão, o aplicativo mostra duas opções de estacionamento e o motorista cancela.
+
+Precondições:
+O servidor WEB está operante.
+O "smartphone" do motorista possui acesso à Internet.
+O sistema GPS está ativado.
+O raio de busca é válido.
+Há duas vaga no raio de busca padrão.
+
+Ações do Usuário:
+Abrir o aplicativo.
+Clicar no botão para buscar vagas.
+Cancelar a aplicação.
+
+Pós-condições:
+O aplicativo fechou corretamente com o estado "cancelado".
+
+Critérios de Sucesso:
+O aplicativo validou o raio de busca, encontrou a localização do smartphode do usuário, entrou em contato com o servidor WEB e mostrou das vagas encontradas.
+O servidor WEB encontrou as vagas no raio de busca padrão.
+
+-----
+
+Identificador do Caso de Teste: GPSDesativado
+
+Descrição: O motorista busca uma vaga no raio de busca padrão, o aplicativo não consegue entrar em contato com o gps.
+
+Precondições:
+O raio de busca é válido.
+O sistema GSP está desativado.
+
+Ações do Usuário:
+Abrir o aplicativo:
+Clicar no botão para buscar vagas.
+Clicar no botão para o aplicativo tentar entrar em contato com o GPS novamente.
+Clicar no botão para o aplicativo cancelar.
+
+Pós-condições:
+O aplicativo fechou corretamente com o estado "GPS desativado".
+O sistema GPS está desativado.
+
+Critérios de Sucesso:
+O aplicativo valida o raio de busca e não consegue entrar em contato com o sistema GPS, mesmo o usuário clica para que o aplicativo tente novamente.
 
