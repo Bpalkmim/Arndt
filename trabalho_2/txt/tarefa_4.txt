@@ -1,10 +1,41 @@
 Tarefa 4
 
-TODO: Ver formato do fomulário na página 8 do slide http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula12_TesteFuncional_3.pdf
+TODO: 1. Ver formato do fomulário na página 8 do slide http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula12_TesteFuncional_3.pdf
+      2. Inserir nos casos de teste os registros da base de dados da tarefa 5.
+
+Lista de colunas escolhidas:
+
+Caso de Teste: 001_Achou_Vaga
+Coluna:
+Raio de Busca Definido          V
+Sistema GPS Ativado             V
+Acesso à Internet               V
+Servidor Web Operante           V
+Vaga Dentro do Raio de Busca    V
+Motorista Cancelou              F
+Motorista Dirigiu até a Vaga    V
+
+Caso de Teste: 002_Cancelou
+Raio de Busca Definido          V
+Sistema GPS Ativado             V
+Acesso à Internet               V
+Servidor Web Operante           V
+Vaga Dentro do Raio de Busca    V
+Motorista Cancelou              V
+Motorista Dirigiu até a Vaga    F
+
+Caso de Teste: 003_GPS_Desativado
+Raio de Busca Definido          V
+Sistema GPS Ativado             F
+Acesso à Internet               V
+Servidor Web Operante           V
+Vaga Dentro do Raio de Busca    F
+Motorista Cancelou              F
+Motorista Dirigiu até a Vaga    F
 
 -----
 
-Identificador do Caso de Teste: AchouVaga
+Identificador do Caso de Teste: 001_Achou_Vaga
 
 Descrição: O usuário busca uma vaga num raio de 200 metros e estaciona seu carro.
 
@@ -35,7 +66,7 @@ O servidor WEB encontrou a vaga no raio de busca determinado.
 
 -----
 
-Identificador do Caso de Teste: Cancelou
+Identificador do Caso de Teste: 002_Cancelou
 
 Descrição: O motorista busca uma vaga no raio de busca padrão, o aplicativo mostra duas opções de estacionamento e o motorista cancela.
 
@@ -60,7 +91,7 @@ O servidor WEB encontrou as vagas no raio de busca padrão.
 
 -----
 
-Identificador do Caso de Teste: GPSDesativado
+Identificador do Caso de Teste: 003_GPS_Desativado
 
 Descrição: O motorista busca uma vaga no raio de busca padrão, o aplicativo não consegue entrar em contato com o gps.
 

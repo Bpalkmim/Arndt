@@ -13,7 +13,7 @@ Justificativa:
 Redigir e rever os casos de teste
 Justificativa: 
 
-Ilustar e rever a base de dados de teste
+Projetar, ilustrar e rever a base de dados de teste
 Justificativa: 
 
 Criar e rever a máquina de estados
@@ -62,3 +62,9 @@ Redigi a tabela de decisão.
 Gabriel
 Redigir e rever os casos de teste
 Redigi os casos de teste.
+
+26-04
+1h
+Gabriel
+Projetar, ilustrar e rever a base de dados de teste
+Projetei a base de testes e ilustrei com 4 registros.

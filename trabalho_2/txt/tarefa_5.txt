@@ -1,0 +1,38 @@
+Tarefa 5
+
+Projeto da Base de dados:
+
+Identificador       Chave única para cada estacionamento
+Nome                Nome do estacionamento
+Total de Vagas      Número total de vagas do estacionamento
+Vagas Disponíveis   Número de vagas disponíveis no momento da busca
+Geo Localização     Posição no sistema de posicionamento global
+
+-----
+
+Registros:
+
+3109
+Estacionamento Rotativo da PUC-Rio
+1800
+2
+-22.978991, -43.231130
+
+10501
+Estacionamento do Jockey Club
+100
+1
+-22.977605, -43.222461
+
+10293
+Estacionamento do Shopping da Gávea
+800
+328
+-22.975662, -43.228019
+
+11092
+Estacionamento Rotativo do Parque Tom Jobin
+300
+274
+-22.971434, -43.217376
+
