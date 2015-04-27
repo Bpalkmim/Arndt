@@ -51,11 +51,17 @@ Gabriel
 Corrigir e rever o caso de uso
 Revi o caso de uso e adequei a lista de condições de entrada e resultados.
 
+25-04
+3h
+Renan
+Estudar
+Estudei sobre tabela de decisão e teste dirigido por comportamento
+
 26-04
 2h
 Gabriel
 Redigir e rever a tabela de decisão
-Redigi a tabela de decisão.
+Montei a tabela de decisão.
 
 26-04
 2h
