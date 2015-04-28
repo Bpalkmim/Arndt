@@ -61,7 +61,7 @@ O aplicativo reconhece que o motorista chegou até o local.
 O aplicativo mostra uma mensagem de sucesso para o usuário e finaliza.
 
 Critérios de Sucesso:
-O aplicativo validou o raio de busca, encontrou a localização do smartphode do usuário, entrou em contato com o servidor WEB, mostrou das vagas encontradas e guiou corretamente o usuário até a vaga.
+O aplicativo validou o raio de busca, encontrou a localização do smartphone do usuário, entrou em contato com o servidor WEB, mostrou das vagas encontradas e guiou corretamente o usuário até a vaga.
 O servidor WEB encontrou a vaga no raio de busca determinado.
 
 -----

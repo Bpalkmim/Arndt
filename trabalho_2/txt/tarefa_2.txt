@@ -21,11 +21,11 @@ Necessário para saber o raio de busca das vagas. Pode ser definido incorretamen
 Sistema GPS Ativado
 Necessário para encontrar a localização do motorista. Pode estar desativado.
 
-Servidor WEB Operante
-Necessário para comunicar ao aplicativo a localização das vagas, e por algum motivo adverso (eg. manutenção emergencial) pode não estar funcionando.
-
 Acesso à Internet
 Necessário para o aplicativo se conectar ao servidor. Pode estar desativado ou sem sinal.
+
+Servidor WEB Operante
+Necessário para comunicar ao aplicativo a localização das vagas, e por algum motivo adverso (eg. manutenção emergencial) pode não estar funcionando.
 
 Vaga Dentro do Raio de Busca
 Necessário para que o processo de encontrar uma vaga conclua corretamente. Pode não haver uma vaga no raio de busca.
@@ -40,6 +40,9 @@ Necessário pois está é a condição para que o sistema termine corretamente.
 
 Resultados
 
+Raio de Busca Inválido
+Ocorre quando o motorista digita um raio de busca inválido.
+
 GPS Desativado
 Ocorre quando o aplicativo perde a conexão com o GPS.
 
@@ -48,9 +51,6 @@ Ocorre quando o aplicativo não obtém acesso à Internet.
 
 Servidor WEB Inoperante
 Ocorre quando o aplicativo obtém acesso à Internet, mas não obtém acesso ao servidor WEB.
-
-Raio de Busca Inválido
-Ocorre quando o motorista digita um raio de busca inválido.
 
 Vaga Não Encontrada
 Ocorre quando não há uma vaga no raio de busca.
@@ -62,6 +62,19 @@ Concluído com Sucesso
 Ocorre quando o motorista chega à vaga.
 
 -----
-Dependências
 
-O resultado Cancelado mascara todos os outros resultados
+Dependências das condições
+
+TODO Não existe mascara em condições?
+
+TODO Acho que não, discutir amanhã - Motorista Cancelou e Motorista Dirigiu até a Vaga é um conjunto obrigatório
+
+TODO Discutir amanhã - Motorista Cancelou e Motorista Dirigiu até a Vaga são mutuamente exclusivos
+
+-----
+
+Dependência dos resultados
+
+TODO Acho que não, discutir amanhã - O resultado Cancelado mascara todos os outros resultados menos Concluído com Sucesso
+
+Qualquer resultado, quando falso, mascara Concluído com Sucesso
