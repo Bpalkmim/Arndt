@@ -74,3 +74,22 @@ Redigi os casos de teste.
 Gabriel
 Projetar, ilustrar e rever a base de dados de teste
 Projetei a base de testes e ilustrei com 4 registros.
+
+27-04
+1h
+Renan
+Redigir e rever a lista de condições de entrada e de resultados
+Alterei os resultados
+
+27-04
+1h
+Renan
+Redigir e rever a lista de condições de entrada e de resultados
+Escrevi as dependências para as condições de entradas e os resultados
+
+27-04
+1h
+Renan
+Redigir e rever tabela de decisão
+Alterei a tabela de decisão baseado nos novos resultados e expliquei os agrupamentos
+

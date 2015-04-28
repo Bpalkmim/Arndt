@@ -1,36 +1,35 @@
 Tarefa 4
 
-TODO: 1. Ver formato do fomulário na página 8 do slide http://www.inf.puc-rio.br/~inf1413/docs/INF1413_Aula12_TesteFuncional_3.pdf
-      2. Inserir nos casos de teste os registros da base de dados da tarefa 5.
+TODO: Inserir nos casos de teste os registros da base de dados da tarefa 5.
 
 Lista de colunas escolhidas:
 
 Caso de Teste: 001_Achou_Vaga
 Coluna:
+Motorista Cancelou              F
 Raio de Busca Definido          V
 Sistema GPS Ativado             V
 Acesso à Internet               V
-Servidor Web Operante           V
+Servidor WEB Operante           V
 Vaga Dentro do Raio de Busca    V
-Motorista Cancelou              F
 Motorista Dirigiu até a Vaga    V
 
 Caso de Teste: 002_Cancelou
+Motorista Cancelou              V
 Raio de Busca Definido          V
 Sistema GPS Ativado             V
 Acesso à Internet               V
 Servidor Web Operante           V
 Vaga Dentro do Raio de Busca    V
-Motorista Cancelou              V
 Motorista Dirigiu até a Vaga    F
 
 Caso de Teste: 003_GPS_Desativado
+Motorista Cancelou              F
 Raio de Busca Definido          V
 Sistema GPS Ativado             F
 Acesso à Internet               V
 Servidor Web Operante           V
 Vaga Dentro do Raio de Busca    F
-Motorista Cancelou              F
 Motorista Dirigiu até a Vaga    F
 
 -----
@@ -110,5 +109,5 @@ O aplicativo fechou corretamente com o estado "GPS desativado".
 O sistema GPS está desativado.
 
 Critérios de Sucesso:
-O aplicativo valida o raio de busca e não consegue entrar em contato com o sistema GPS, mesmo o usuário clica para que o aplicativo tente novamente.
+O aplicativo valida o raio de busca e não consegue entrar em contato com o sistema GPS, mesmo o usuário clicando para que o aplicativo tente novamente.
 
