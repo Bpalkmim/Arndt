@@ -5,19 +5,19 @@ Corrigir e rever o caso de uso
 Justificativa: É essencial pois o trabalho inteiro se baseia neste caso de uso.
 
 Redigir e rever a lista de condições de entrada e de resultados
-Justificativa: 
+Justificativa: Esse documento deve estar condizente com os demais.
 
 Redigir e rever a tabela de decisão
-Justificativa: 
+Justificativa: Esse documento deve estar condizente com os demais.
 
 Redigir e rever os casos de teste
-Justificativa: 
+Justificativa: Os casos devem atender aos critérios requeridos.
 
 Projetar, ilustrar e rever a base de dados de teste
-Justificativa: 
+Justificativa: A base de dados deve estar direcionada ao bom desenvolvimento dos casos de teste.
 
 Criar e rever a máquina de estados
-Justificativa: 
+Justificativa: A máquina de estados deve estar pronta para que sejam criados os casos de teste.
 
 ---
 
@@ -93,3 +93,38 @@ Renan
 Redigir e rever tabela de decisão
 Alterei a tabela de decisão baseado nos novos resultados e expliquei os agrupamentos
 
+28-04
+1h
+Bernardo
+Estudar
+Estudei como fazer a máquina de estados.
+
+28-04
+2h
+Bernardo
+Criar e rever a máquina de estados
+Fiz o primeiro esboço da máquina de estados.
+
+29-04
+2h
+Bernardo
+Criar e rever a máquina de estados
+Corrigi a máquina de estados.
+
+29-04
+2h
+Bernardo
+Criar e rever a máquina de estados
+Passei a máquina de estados a limpo.
+
+29-04
+1h
+Bernardo
+Estudar
+Estudei como redigir os casos de teste.
+
+30-04
+2h
+Bernardo
+Criar e rever os casos de teste
+Redigi os casos de teste.
