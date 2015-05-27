@@ -1,0 +1,45 @@
+Estudar
+Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
+
+Projetar e revisar Diagrama de Classes
+É necessário para que tenhamos uma visão estrutural geral do problema especificado.
+
+Projetar e revisar Interface Conceitual
+Tornar mais concreto o procedimento de registro de reserva.
+
+Redigir e revisar Assertivas de Entrada e Saída
+
+
+Projetar e revisar Grafos de Estrutura
+
+
+Projetar e revisar Tabela de Caminhos
+
+
+Projetar e revisar Caminhos Compostos
+
+
+Descrever e revisar Casos de Teste Semânticos
+
+
+---
+
+27/05
+2h
+Bernardo Gabriel Renan
+Estudar
+Estudamos o enunciado do trabalho em conjunto e discutimos
+
+27/05
+1:30h
+Bernardo Gabriel
+Projetar e revisar Diagrama de Classes
+Começamos a construir o Diagrama.
+
+27/05
+1h
+Bernardo Renan
+Projetar e revisar Diagrama de Classes
+Corrigimos e finalizamos o Diagrama.
+
+
