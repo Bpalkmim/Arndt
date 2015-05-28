@@ -1,0 +1,17 @@
+Questão 2
+
+
+Interface conceitual:
+	reserveSeat (seatLocation: SeatLocation): Boolean
+
+
+Assertivas de Entrada
+	- A base de dados está corretamente carregada.
+	- A localização do assento passado é uma localização válida.
+	- O tipo do assento que se deseja reservar é do mesmo tipo dos assentos já existentes na tabela.
+
+
+Assertivas de Saída
+	- As reservas referentes aos assentos da tabela que não não estão relacionados à posição passada não foram alteradas.
+	- Se foi possível reservar o assento na posição passada, então o assento relacionado à posição passada foi reservado e o método retornou "true". 
+	- Se não foi possível reservar o assento na posição passada, então o assento relacionado à posição passada não foi reservado e o método retornou "false".
