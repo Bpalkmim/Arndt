@@ -2,25 +2,25 @@ Estudar
 Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
 
 Projetar e revisar Diagrama de Classes
-É necessário para que tenhamos uma visão estrutural geral do problema especificado.
+Criar uma visão estrutural geral do problema especificado.
 
 Projetar e revisar Interface Conceitual
 Tornar mais concreto o procedimento de registro de reserva.
 
 Redigir e revisar Assertivas de Entrada e Saída
-
+Compreender melhor a amarração do registro de reserva com o resto do sistema.
 
 Projetar e revisar Grafos de Estrutura
-
+Facilitar a geração de testes ao estruturar o programa.
 
 Projetar e revisar Tabela de Caminhos
-
+Explicitar os Caminhos encontrados.
 
 Projetar e revisar Caminhos Compostos
-
+Verificar as conexões internas do sistema.
 
 Descrever e revisar Casos de Teste Semânticos
-
+Testar o sistema para melhorar padrão de qualidade.
 
 ---
 
@@ -31,7 +31,7 @@ Estudar
 Estudamos o enunciado do trabalho em conjunto e discutimos
 
 27/05
-1:30h
+1h
 Bernardo Gabriel
 Projetar e revisar Diagrama de Classes
 Começamos a construir o Diagrama.
@@ -41,5 +41,23 @@ Começamos a construir o Diagrama.
 Bernardo Renan
 Projetar e revisar Diagrama de Classes
 Corrigimos e finalizamos o Diagrama.
+
+27/05
+1h
+Renan
+Projetar e revisar Interface Conceitual
+Fiz a interface e terminei.
+
+27/05
+1h
+Renan
+Redigir e revisar Assertivas de Entrada e Saída
+Criei as assertivas e terminei a tarefa 2.
+
+27/05
+1h
+Bernardo Gabriel
+Projetar e revisar Diagrama de Classes
+Criamos as relações entre as classes vistas no código.
 
 
