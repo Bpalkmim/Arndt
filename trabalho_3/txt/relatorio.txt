@@ -28,13 +28,13 @@ Testar o sistema para melhorar padrão de qualidade.
 2h
 Bernardo Gabriel Renan
 Estudar
-Estudamos o enunciado do trabalho em conjunto e discutimos
+Estudamos o enunciado do trabalho em conjunto e discutimos a divisão de tarefas.
 
 27/05
 1h
 Bernardo Gabriel
 Projetar e revisar Diagrama de Classes
-Começamos a construir o Diagrama.
+Começamos a construir o Diagrama da questão 1.
 
 27/05
 1h
@@ -60,4 +60,8 @@ Bernardo Gabriel
 Projetar e revisar Diagrama de Classes
 Criamos as relações entre as classes vistas no código.
 
-
+30/05
+2h
+Gabriel
+Projetar e revisar Grafos de Estrutura
+Criei os grafos de estrutura dos métodos acessados a partir do método InsertSymbol.
