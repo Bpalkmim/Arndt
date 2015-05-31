@@ -65,3 +65,9 @@ Criamos as relações entre as classes vistas no código.
 Gabriel
 Projetar e revisar Grafos de Estrutura
 Criei os grafos de estrutura dos métodos acessados a partir do método InsertSymbol.
+
+31/05
+1h
+Gabriel
+Estudar
+Estudei o material referente à tabela dos caminhos.
