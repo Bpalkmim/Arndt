@@ -2,25 +2,25 @@ Estudar
 Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
 
 Projetar e revisar Diagrama de Classes
-Criar uma visão estrutural geral do problema especificado.
+Justificativa: Criar uma modelo de interações entre componentes para ter uma visão geral do problema.
 
 Projetar e revisar Interface Conceitual
-Tornar mais concreto o procedimento de registro de reserva.
+Justificativa: Tornar mais concreto o procedimento de registro de reserva.
 
 Redigir e revisar Assertivas de Entrada e Saída
-Compreender melhor a amarração do registro de reserva com o resto do sistema.
+Justificativa: Compreender melhor a amarração do registro de reserva com o resto do sistema.
 
 Projetar e revisar Grafos de Estrutura
-Facilitar a geração de testes ao estruturar o programa.
+Justificativa: Facilitar a geração de testes ao estruturar o programa.
 
 Projetar e revisar Tabela de Caminhos
-Explicitar os Caminhos encontrados.
+Justificativa: Explicitar os caminhos encontrados com base nos grafos.
 
 Projetar e revisar Caminhos Compostos
-Verificar as conexões internas do sistema.
+Justificativa: Verificar as conexões internas do sistema.
 
 Descrever e revisar Casos de Teste Semânticos
-Testar o sistema para melhorar padrão de qualidade.
+Justificativa: Testar o sistema para melhorar padrão de qualidade.
 
 ---
 
@@ -71,3 +71,9 @@ Criei os grafos de estrutura dos métodos acessados a partir do método InsertSy
 Gabriel
 Estudar
 Estudei o material referente à tabela dos caminhos.
+
+01/05
+3h
+Gabriel
+Projetar e revisar Tabela de Caminhos
+Projetei a tabela de caminhos, com base na aula 19.

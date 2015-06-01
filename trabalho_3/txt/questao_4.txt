@@ -1,0 +1,11 @@
+Inserir os grafos na seguinte ordem:
+InsertSymbol
+SearchSymbol
+Hash
+InsertAfter
+MoveToFirst
+MoveElement
+GetCurrentElement
+InsertElement
+GetSymbolString
+CompareSymbol
