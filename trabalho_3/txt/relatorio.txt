@@ -77,3 +77,22 @@ Estudei o material referente à tabela dos caminhos.
 Gabriel
 Projetar e revisar Tabela de Caminhos
 Projetei a tabela de caminhos, com base na aula 19.
+
+01/05
+1h
+Gabriel
+Projetar e revisar Tabela de Caminhos
+Revisei a tabela de caminhos.
+
+01/05
+1h
+Renan
+Projetar e revisar Diagrama de Classes
+Terminei o diagrama da tarefa 3.
+
+01/05
+1h
+Gabriel Renan
+Projetar e revisar Diagrama de Classes
+Revisamos e corrigimos os diagramas de classes das tarefas 1 e 3.
+
