@@ -1,0 +1,96 @@
+TALISMAN Log file
+
+2015/06/17-19:06:13 : Log start: EVENT
+
+!!! **************************************************
+2015/06/17-19:06:13 : !!! Start test, script file: tst-sls-02.script
+
+// Script:    Tst-sls-02.script
+// Author:    Arndt von Staa
+// Date:      01/fev/2007
+// Purpose:   Test simple list
+      6 == Reset all spaces
+     11 == Build list with 8 elements using insert after
+     22 == Verify contents of the list
+     40 == Verify list structure
+     43 == Corrupt number of elements
+---ERROR LOG: Line: 488  File: ..\sources\simplist.cpp  Detail: 10
+         Cause: Invalid simple list
+     47 == Corrupt last element pointer to NULL
+---ERROR LOG: Line: 426  File: ..\sources\simplist.cpp  Detail: 1
+         Cause: Invalid simple list
+     51 == Corrupt last element pointer to sandbox
+---ERROR LOG: Line: 480  File: ..\sources\simplist.cpp  Detail: 8
+         Cause: Invalid simple list
+---ERROR LOG: Line: 488  File: ..\sources\simplist.cpp  Detail: 10
+         Cause: Invalid simple list
+     55 == Destroy the corrupted list
+!!!  Deleted element: 1
+!!!  Deleted element: 22
+!!!  Deleted element: 333
+!!!  Deleted element: 4444
+!!!  Deleted element: 55555
+!!!  Deleted element: 666666
+!!!  Deleted element: 7777777
+!!!  Deleted element: 88888888
+     58 == Build list with 6 elements using insert after
+---DataSpace  Id:   201  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE4580
+---DataSpace  Id:   200  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00AE3A98
+---DataSpace  Id:   199  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE4148
+---DataSpace  Id:   198  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00AD2B90
+---DataSpace  Id:   197  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE40B8
+---DataSpace  Id:   196  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00AD2A90
+---DataSpace  Id:   195  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE4268
+---DataSpace  Id:   194  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00AD2990
+---DataSpace  Id:   193  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE3FE0
+---DataSpace  Id:   192  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00ADB4D8
+---DataSpace  Id:   191  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00AE4610
+---DataSpace  Id:   190  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00ADB3D8
+---DataSpace  Id:   189  Size:    20  Line:   491  File:      tst_sls.cpp   Addr: 00AE4028
+---DataSpace  Id:    52  Size:    18  Line:   675  File:       string.cpp   Addr: 00AD0520
+---DataSpace  Id:    51  Size:    12  Line:    74  File:       msgstr.cpp   Addr: 00AD04E0
+---DataSpace  Id:    50  Size:     8  Line:  1144  File:     gnrctest.cpp   Addr: 00AD04A0
+---DataSpace  Id:    49  Size:    18  Line:   675  File:       string.cpp   Addr: 00AD5FE8
+---DataSpace  Id:    48  Size:    12  Line:   391  File:      sioctrl.cpp   Addr: 00AD9C38
+---DataSpace  Id:    47  Size:    88  Line:  1142  File:     gnrctest.cpp   Addr: 00AD5F58
+---DataSpace  Id:    46  Size:    18  Line:   739  File:       string.cpp   Addr: 00AD5F10
+---DataSpace  Id:    39  Size:  2603  Line:  1105  File:     gnrctest.cpp   Addr: 00ADA978
+---DataSpace  Id:    38  Size:  5004  Line:   122  File:      symbtab.cpp   Addr: 00AD15D0
+---DataSpace  Id:    37  Size:    20  Line:  1103  File:     gnrctest.cpp   Addr: 00AD5E28
+---DataSpace  Id:    24  Size:    15  Line:   739  File:       string.cpp   Addr: 00AD5E88
+---DataSpace  Id:    17  Size:  2583  Line:   171  File:       logger.cpp   Addr: 00AD9F28
+---DataSpace  Id:    15  Size:     6  Line:   675  File:       string.cpp   Addr: 00AD9CC0
+---DataSpace  Id:    11  Size:    20  Line:   297  File:       global.cpp   Addr: 00AD9C78
+---DataSpace  Id:     8  Size:    17  Line:   675  File:       string.cpp   Addr: 00AD9BF0
+---DataSpace  Id:     4  Size:   136  Line:   129  File:       global.cpp   Addr: 00AD9B30
+---DataSpace  Id:     3  Size:  1000  Line:   270  File:       global.cpp   Addr: 00ADF740
+---DataSpace  Id:     2  Size:    12  Line:   220  File:     gnrctest.cpp   Addr: 00AD9AF0
+---DataSpace  Id:     1  Size:   887  Line:   357  File:         main.cpp   Addr: 00AD9740
+
+!!! Spaces still allocated:         32
+
+!!! Total data spaces allocated:   201
+
+!!! Total data spaces deleted:     169
+ 
+
+     70 == Corrupt last predecessor pointer
+---ERROR LOG: Line: 469  File: ..\sources\simplist.cpp  Detail: 6
+         Cause: Invalid simple list
+!!!  Deleted element: 1
+!!!  Deleted element: 22
+!!!  Deleted element: 333
+!!!  Deleted element: 4444
+!!!  Deleted element: 55555
+!!!  Deleted element: 666666
+     75 == Verify leakage
+
+2015/06/17-19:06:13 : !!! End of test, script file: tst-sls-02.script
+!!! **************************************************
+
+!!! --------------------
+!!!  Test ended
+     Test statistics:   Test files 1  Test cases 11  Test commands 51  Test lines 77
+     Test ending condition: No failures found.
+
+2015/06/17-19:06:13 : Log end: EVENT

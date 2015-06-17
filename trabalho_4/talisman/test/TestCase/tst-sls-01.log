@@ -1,0 +1,112 @@
+TALISMAN Log file
+
+2015/06/17-19:06:13 : Log start: EVENT
+
+!!! **************************************************
+2015/06/17-19:06:13 : !!! Start test, script file: tst-sls-01.script
+
+// Script:    Tst-sls-01.script
+// Author:    Arndt von Staa
+// Date:      01/fev/2007
+// Purpose:   Test simple list
+      6 == Reset all spaces
+      9 == Declare parameters to be used
+     13 == Preserve the number of allocated spaces
+     17 == Create a list
+     20 == Try setting element current with a null element
+     23 == Test empty list
+     32 == Test emptying empty list
+     42 == Insert an element into this list
+     49 == Test movefirst with only one element
+     53 == Test movelast with only one element
+     57 == Delete the list
+!!!  Deleted element: abcdefg
+     60 == Test destroyed list
+>>> 1    Line 61  Incorrect command parameters:  =getnumelem   0  0
+<<< 0    Line 62  Expected failure or error has been recovered. 
+     64 == Test inexistent list
+>>> 1    Line 65  Incorrect command parameters:  =getnumelem   1  0
+<<< 0    Line 66  Expected failure or error has been recovered. 
+     68 == Build list with 1 element using insert before
+     74 == Build list with 2 elements using insert before
+     79 == Build list with 3 elements using insert before
+     86 == Verify list from begining to end
+     95 == Verify list from end to begining
+    104 == Destroy the list of 3 elements
+!!!  Deleted element: cc
+!!!  Deleted element: bbb
+!!!  Deleted element: aaaa
+    107 == Build list with 1 element using insert after
+    113 == Build list with 2 elements using insert after
+    118 == Build list with 3 elements using insert after
+    125 == Verify list from begining to end
+    134 == Verify list from end to begining
+    143 == Add elements to the beginning
+// ww x yyyy zzzzz
+// ww ttt x yyyy zzzzzz
+    150 == Add elements to the end
+// ww ttt x yyyy zzzzzz rrrr
+// ww ttt x yyyy zzzzzz sssss rrrr
+    158 == Add elements to the middle
+// ww ttt qqq x yyyy zzzzzz sssss rrrr
+    164 == Add another element to the middle
+// ww ttt qqq x yyyy ooooooo zzzzzz sssss rrrr
+    170 == Verify list structure
+    173 == Verify whole list
+    194 == Delete first element
+!!!  Deleted element: ww
+// ttt qqq x yyyy ooooooo zzzzzz sssss rrrr
+    200 == Delete last element
+!!!  Deleted element: rrrr
+// ttt qqq x yyyy ooooooo zzzzzz sssss
+    206 == Delete element in the middle
+!!!  Deleted element: x
+// ttt qqq yyyy ooooooo zzzzzz sssss
+    212 == Delete element in the middle
+!!!  Deleted element: ooooooo
+// ttt qqq yyyy zzzzzz sssss
+    218 ==Delete remaining elements
+!!!  Deleted element: yyyy
+!!!  Deleted element: qqq
+!!!  Deleted element: ttt
+!!!  Deleted element: zzzzzz
+!!!  Deleted element: sssss
+    229 == Delete element from empty list
+    233 == Destroy the empty list
+    236 == Build list with 8 elements using insert after
+    247 == Verify contents of the list
+    266 == Test set element current to a given element of the list
+    270 == Empty the list
+!!!  Deleted element: 1
+!!!  Deleted element: 22
+!!!  Deleted element: 333
+!!!  Deleted element: 4444
+!!!  Deleted element: 55555
+!!!  Deleted element: 666666
+!!!  Deleted element: 7777777
+!!!  Deleted element: 88888888
+    273 == Try seting element current with non existing element
+    276 == Verify if list is empty
+    285 == Destroy the list
+    288 == Create dummy list
+    297 == Try seting element current with non existing element in this list
+    300 == Destroy the list
+!!!  Deleted element: 22
+!!!  Deleted element: 333
+!!!  Deleted element: 55555
+!!!  Deleted element: 666666
+!!!  Deleted element: 7777777
+    304 == Verify leakage
+    308 == Create dummy list, test tester destruction, may not leave allocated dataspaces
+// end test
+
+2015/06/17-19:06:13 : !!! End of test, script file: tst-sls-01.script
+!!! **************************************************
+
+!!! --------------------
+!!!  Test ended
+     Test statistics:   Test files 1  Test cases 49  Test commands 195  Test lines 312
+     Test ending condition: No failures found.
+
+!!!  Deleted element: 1
+2015/06/17-19:06:13 : Log end: EVENT

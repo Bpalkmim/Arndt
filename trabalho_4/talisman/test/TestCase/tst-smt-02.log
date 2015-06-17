@@ -1,0 +1,31 @@
+TALISMAN Log file
+
+2015/06/17-19:06:13 : Log start: EVENT
+
+!!! **************************************************
+2015/06/17-19:06:13 : !!! Start test, script file: tst-smt-02.script
+
+// Script:    Tst-sls-01.script
+// Author:    Arndt von Staa
+// Date:      29/mai/2014
+// Purpose:   Random symbol table test
+      6 == Reset all spaces
+      9 == Preserve the number of allocated spaces
+     13 == Generate and test
+!!!      Line 22   
+!!!      Line 22  Random test results 
+!!!      Line 22  Hash table size: 32  Number of symbols: 50  Number of actions: 5 
+!!!      Line 22  Number of insertions:    0  Number of failed insertions:    0 
+!!!      Line 22  Number of retrieves:     0  Number of failed retrieves:     0 
+!!!      Line 22  Number of deletes:       0  Number of failed deletes:       0 
+     24 == Verify leakage
+
+2015/06/17-19:06:13 : !!! End of test, script file: tst-smt-02.script
+!!! **************************************************
+
+!!! --------------------
+!!!  Test ended
+     Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
+     Test ending condition: No failures found.
+
+2015/06/17-19:06:13 : Log end: EVENT

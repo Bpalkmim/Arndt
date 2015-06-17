@@ -1,0 +1,117 @@
+TALISMAN Log file
+
+2015/06/17-19:06:12 : Log start: EVENT
+
+!!! **************************************************
+2015/06/17-19:06:12 : !!! Start test, script file: tst-str-01.script
+
+// Script:    Tst-str-01.script
+// Author:    Arndt von Staa
+// Date:      28/ago/2007
+// Purpose:   Test string, converison to printable
+      6 == Declare constants
+     25 == save the number of allocated data spaces
+     30 == Construct empty pointed string
+     36 == Convert to printable a normal string
+     41 == Convert to printable a normal string truncating to 4 chars total size (including zero)
+     46 == Convert to printable a normal string
+     51 == Convert to printable a normal string exact size - terminating zero counts!
+     56 == Convert to printable a normal string one too short
+     61 == Convert to printable a string containing control characters
+     66 == Convert to printable a string containing control characters exact size
+     71 == Convert to printable a string containing 2 control characters
+     76 == Convert to printable a string containing 2 control characters, exact size
+     81 == Convert to printable a string containing 2 control characters, truncate last by one
+     86 == Convert to printable a string containing 2 control characters, truncate exactly last
+     91 == Convert to printable a string containing 2 control characters, truncate last and previous
+     96 == Convert a string to overall size 0
+
+>>> 1    Line 98  Tester caught a program exception, context -1 >>
+--- EXC: ASSERTION: Failing expression: lenBuffer >= 4
+        Exception thrown in Line: 1014  File: ..\sources\string.cpp
+
+<<< 0    Line 99  Expected exception has been ignored.
+ 
+    101 == Convert a string to overall size 3
+
+>>> 1    Line 103  Tester caught a program exception, context -1 >>
+--- EXC: ASSERTION: Failing expression: lenBuffer >= 4
+        Exception thrown in Line: 1014  File: ..\sources\string.cpp
+
+<<< 0    Line 104  Expected exception has been ignored.
+ 
+    106 == Convert an empty string to overall size 5
+    111 == Convert an empty string to overall size 4
+    116 == Convert an empty string to overall size 3
+
+>>> 1    Line 118  Tester caught a program exception, context -1 >>
+--- EXC: ASSERTION: Failing expression: lenBuffer >= 4
+        Exception thrown in Line: 1014  File: ..\sources\string.cpp
+
+<<< 0    Line 119  Expected exception has been ignored.
+ 
+    121 == Convert a nonprintable string to overall size 4
+    126 == Convert a nonprintable string to overall size 5
+    131 == Convert a mixed string
+    136 == Convert a mixed string
+    141 == Convert a string of encoded printable chars
+    146 == Convert to printable a normal string
+    151 == Convert to printable a normal string truncating to 4 chars total size (including zero)
+    156 == Convert to printable a normal string, buffer too large
+    161 == Convert to printable a normal string exact size - terminating zero counts!
+    166 == Convert to printable a normal string, buffer one too short
+    171 == Convert to printable a string containing control characters one too long
+    176 == Convert to printable a string containing control characters exact size
+    181 == Convert to printable a string containing control characters one too short
+    186 == Convert to printable a string containing 2 control characters
+    191 == Convert to printable a string containing 2 control characters, exact size
+    196 == Convert to printable a string containing 2 control characters, truncate first by one
+    201 == Convert to printable a string containing 2 control characters, truncate first
+    206 == Convert to printable a string containing 2 control characters, truncate exactly first
+    211 == Convert to printable a string containing 2 control characters, truncate more than first
+    216 == Convert to printable a string containing 2 control characters, leave axatly last
+    221 == Convert to printable a string containing 2 control characters, truncate both
+    226 == Convert to printable a string containing 2 control characters, truncate both
+    231 == Convert to printable a string containing 2 control characters, truncate both
+    236 == Convert to printable a string containing 2 control characters, truncate both
+    241 == Convert to printable a string containing 2 control characters, truncate both
+    246 == Convert a nonprintable string to overall size 5
+    251 == Convert a mixed string
+    256 == Convert a string of encoded printable chars
+    261 == Convert illegal encoded string
+    266 == Convert a string of encoded printable chars verify incorrectly
+>>> 1    Line 269  Incorrect string. 
+    1    Line 269          Is: >A9B8C7DE5< 
+    1    Line 269   Should be: >a9B8C7DE5< 
+<<< 0    Line 270  Expected failure or error has been recovered. 
+    272 == Verify if printable
+>>> 1    Line 280  Incorrect verify result  Is false, should be true.
+<<< 0    Line 281  Expected failure or error has been recovered. 
+    283 == Convert to hexadecimal
+    289 == Test truncate left ASCII
+
+>>> 1    Line 306  Tester caught a program exception, context -1 >>
+--- EXC: ASSERTION: Failing expression: lenBuffer >= 4
+        Exception thrown in Line: 1014  File: ..\sources\string.cpp
+
+<<< 0    Line 307  Expected exception has been ignored.
+ 
+    309 == Test truncate left Hexadecimal
+
+>>> 1    Line 323  Tester caught a program exception, context -1 >>
+--- EXC: ASSERTION: Failing expression: lenBuffer >= 4
+        Exception thrown in Line: 1014  File: ..\sources\string.cpp
+
+<<< 0    Line 324  Expected exception has been ignored.
+ 
+    326 == verify memory leak
+
+2015/06/17-19:06:12 : !!! End of test, script file: tst-str-01.script
+!!! **************************************************
+
+!!! --------------------
+!!!  Test ended
+     Test statistics:   Test files 1  Test cases 55  Test commands 206  Test lines 330
+     Test ending condition: No failures found.
+
+2015/06/17-19:06:12 : Log end: EVENT

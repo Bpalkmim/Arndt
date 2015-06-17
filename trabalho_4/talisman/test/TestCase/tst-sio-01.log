@@ -1,0 +1,71 @@
+TALISMAN Log file
+
+2015/06/17-19:06:14 : Log start: EVENT
+
+!!! **************************************************
+2015/06/17-19:06:14 : !!! Start test, script file: tst-sio-01.script
+
+// Script:    Tst-sls-01.script
+// Author:    Arndt von Staa
+// Date:      09/abr/2007
+// Purpose:   Test sequencial IO control
+      7 == Declare parameters to be used
+     19 == Reset all spaces
+     22 == Preserve the number of allocated spaces
+     25 == Test c  reate an empty control
+     28 == Test illegal access to pointer in empty control
+     31 == Try to reuse the index
+>>> 1    Line 32  Incorrect command parameters:  =NewSIO           sioNULL
+<<< 0    Line 33  Expected failure or error has been recovered. 
+     35 == Verify empty control
+     38 == Destroy empty control
+     41 == Test open a file
+     45 == Verify read file
+     48 == Test read the file
+     54 == Destroy control
+     57 == Open inexistent file
+>>> ERROR:   Could not open inexistent file: ..\testcase\tst-sio-xx.test
+     61 == Verify if inexistent file exists
+     65 == Verify if existing file exists
+     69 == Open existing file
+     72 == Verify read file
+     75 == Read the file testing line count, line size, GetBufferPointer and untrimmed read
+     92 == Test get the file name
+     95 == Destroy control
+     98 == Test write a file
+    109 == Verify the written file
+    119 == Test compare file
+    122 == Test append line to file
+    129 == Test compare unequal files, wrong length
+>>> ERROR:   File compare found files of different length
+          File A: ..\testcase\tst-sio-01.test
+          File B: ..\testcase\written.bak
+    132 == Create wrong file
+    141 == Test compare unequal file, unequal lines
+>>> ERROR:   File compare found unequal lines near line: 2
+          File A: ..\testcase\tst-sio-01.test
+          File B: ..\testcase\written.bak
+    144 == Test Copy file
+    148 == Test copy file with blanks in name
+    152 == Test delete existing file
+>>> 1    Line 154  Could not delete file  Is false, should be true.
+<<< 0    Line 155  Expected failure or error has been recovered. 
+    157 == Test delete non existing file
+    160 == Test copy file with incorrect name
+>>> ERROR:   Could not open copy source file: ..\testcase\tst-sio-01.xxx
+    163 == Test extension extractor
+>>> 1    Line 168  Extension should exist. Pointer should not be NULL.
+<<< 0    Line 169  Expected failure or error has been recovered. 
+>>> 1    Line 170  Extension should not exist. Pointer should be NULL.
+<<< 0    Line 171  Expected failure or error has been recovered. 
+    173 == Verify leakage
+
+2015/06/17-19:06:14 : !!! End of test, script file: tst-sio-01.script
+!!! **************************************************
+
+!!! --------------------
+!!!  Test ended
+     Test statistics:   Test files 1  Test cases 34  Test commands 98  Test lines 177
+     Test ending condition: No failures found.
+
+2015/06/17-19:06:14 : Log end: EVENT
