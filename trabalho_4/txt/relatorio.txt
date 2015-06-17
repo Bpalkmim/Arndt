@@ -1,5 +1,8 @@
-Estudar
+﻿Estudar
 Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
+
+Preparar o ambiente de trabalho
+Justificativa: paso referente às primeiras tarefas do trabalho.
 
 Projetar e revisar
 
@@ -12,4 +15,11 @@ Redigir e revisar
 Bernardo Gabriel Renan
 Estudar
 Estudamos o enunciado do trabalho em conjunto e discutimos a divisão de tarefas.
+
+17/06
+2h
+Bernardo Gabriel
+Preparar o ambiente de trabalho
+Preparamos nossas máquinas para fazer o trabalho.
+
 
