@@ -739,15 +739,15 @@ LES - Laboratorio de Engenharia de Software
 
 >>> 13 Allocated data spaces remain: 9, verify memory leakage.
 
->>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2BC0
->>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2B80
->>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2B00
->>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00B03AF8
->>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2AC0
->>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2A80
->>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 00AF2A08
->>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00AF29C8
->>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00AF0568
+>>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 00932780
+>>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00932740
+>>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 009326C0
+>>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00932688
+>>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00932648
+>>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095C080
+>>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 0095C008
+>>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095BFC8
+>>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 0095BF50
 >>> Log closed: 
 !!! Spaces still allocated:          9
 >>> Log closed: 
@@ -843,6 +843,54 @@ LES - Laboratorio de Engenharia de Software
 !!! Base folder name: ..\testcase\
 !!! Script file name: tst-smt-02
 !!! Event log file name: tst-smt-02
+!!! Accum  file name: testFramework
+!!! Do not count passages.
+!!! ------------------------------
+
+
+!!! Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
+
+    Test ending condition: No failures found.
+
+
+!!! ------------------------------
+
+!!! TEST OK.
+
+!!! ------------------------------
+
+
+
+LES - Laboratorio de Engenharia de Software
+   Talisman unit test, version 0001.00-00, build 00001 (c) 2007
+
+!!! Base folder name: ..\testcase\
+!!! Script file name: tst-tsmt-01
+!!! Event log file name: tst-tsmt-01
+!!! Accum  file name: testFramework
+!!! Do not count passages.
+!!! ------------------------------
+
+
+!!! Test statistics:   Test files 1  Test cases 17  Test commands 66  Test lines 107
+
+    Test ending condition: No failures found.
+
+
+!!! ------------------------------
+
+!!! TEST OK.
+
+!!! ------------------------------
+
+
+
+LES - Laboratorio de Engenharia de Software
+   Talisman unit test, version 0001.00-00, build 00001 (c) 2007
+
+!!! Base folder name: ..\testcase\
+!!! Script file name: tst-tsmt-02
+!!! Event log file name: tst-tsmt-02
 !!! Accum  file name: testFramework
 !!! Do not count passages.
 !!! ------------------------------
@@ -1015,19 +1063,19 @@ LES - Laboratorio de Engenharia de Software
 !!! Do not count passages.
 !!! ------------------------------
 
-2015/06/17-19:06:14 : Log end: ???
+2015/06/17-22:22:41 : Log end: ???
 
-2015/06/17-19:06:14 : Log start: Error log
+2015/06/17-22:22:41 : Log start: Error log
 ?????? Error log line sent to console.
-2015/06/17-19:06:14 : Log end: Error log
+2015/06/17-22:22:41 : Log end: Error log
 
-2015/06/17-19:06:14 : Log start: Console log
+2015/06/17-22:22:41 : Log start: Console log
 ------ Console log line 1.
 ------ Console log line 2.
 ------ Console log line 3.
-2015/06/17-19:06:14 : Log end: Console log
+2015/06/17-22:22:41 : Log end: Console log
 
-2015/06/17-19:06:14 : Log start: Console log
+2015/06/17-22:22:41 : Log start: Console log
 ------ Console log line 1.
 >abcdefghi<
 >abcdefghi<
@@ -1039,7 +1087,7 @@ LES - Laboratorio de Engenharia de Software
 >\x00\x01abcdefgh...<
 >...<
 >...<
-2015/06/17-19:06:14 : Log end: Console log
+2015/06/17-22:22:41 : Log end: Console log
 
 
 !!! Test statistics:   Test files 1  Test cases 22  Test commands 188  Test lines 250

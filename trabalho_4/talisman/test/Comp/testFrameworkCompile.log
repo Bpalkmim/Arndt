@@ -178,6 +178,20 @@
 	SET CL=
 	CD  ..\Obj
 	LINK    @Tst-smt.build >> ..\sources\Tst-smt.err
+	..\..\tools\programs\CompileBanner /cTst-tsmt
+
+
+#################### Compilacao do construto: Tst-tsmt
+
+	..\..\tools\programs\GenerateFile ..\sources\specific-test.hpp  "#include \"tst_tsmt.hpp\""
+	..\..\tools\programs\CompileBanner /cTst-tsmt  > ..\sources\Tst-tsmt.err
+	SET CL=/c /J /W4 /EHa /GA /GF /GR /Zp /nologo
+	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\tsymbtab.cpp >> ..\sources\Tst-tsmt.err
+	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\tst_tsmt.cpp >> ..\sources\Tst-tsmt.err
+	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\main.cpp >> ..\sources\Tst-tsmt.err
+	SET CL=
+	CD  ..\Obj
+	LINK    @Tst-tsmt.build >> ..\sources\Tst-tsmt.err
 	..\..\tools\programs\CompileBanner /cTst-Rnd
 
 
@@ -312,7 +326,7 @@
 	cd ..\Obj
 	LIB  @TalismanTestLib.build >> ..\sources\TalismanTestLib.err
 	copy   ..\obj\TalismanTestLib.lib  ..\..\global\lib
-        1 arquivo(s) copiado(s).
+        1 file(s) copied.
 	..\..\tools\programs\CompileBanner /cTst-lib
 
 
@@ -365,7 +379,7 @@
 	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\verifier.cpp >> ..\sources\TalismanTestDll.err
 	cd ..\Obj
 	DUMPBIN  /SYMBOLS   *.obj  /OUT:dllsymbols.txt
-Microsoft (R) COFF/PE Dumper Version 12.00.31101.0
+Microsoft (R) COFF/PE Dumper Version 11.00.50727.1
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 	..\..\tools\programs\grdllexp  /edllsymbols.txt /stalismantestdll
@@ -381,9 +395,9 @@ Extrair API para a geração de arquivo .def para .DLL.  V1.0, 2003
 	del    ..\..\global\lib\talismantestdll.dll
 	LINK  @TalismanTestDll.build >> ..\sources\TalismanTestDll.err
 	copy   talismantestdll.lib  ..\..\global\lib
-        1 arquivo(s) copiado(s).
+        1 file(s) copied.
 	copy   talismantestdll.dll  ..\..\global\lib
-        1 arquivo(s) copiado(s).
+        1 file(s) copied.
 	..\..\tools\programs\CompileBanner /cTst-dll
 
 

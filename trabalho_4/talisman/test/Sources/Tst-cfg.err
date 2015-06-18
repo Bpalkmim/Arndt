@@ -11,7 +11,7 @@ TALISMAN tool: GeraDefS - Generate access key table for the memory resident stri
 configfl.cpp
 tst_cfg.cpp
 main.cpp
-Microsoft (R) Incremental Linker Version 12.00.31101.0
+Microsoft (R) Incremental Linker Version 11.00.50727.1
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /OUT:Tst-cfg.EXE 

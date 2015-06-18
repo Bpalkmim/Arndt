@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/17-19:06:11 : Log start: EVENT
+2015/06/17-22:22:38 : Log start: EVENT
 
 !!! **************************************************
-2015/06/17-19:06:11 : !!! Start test, script file: tst-main-09.script
+2015/06/17-22:22:38 : !!! Start test, script file: tst-main-09.script
 
 // Script:    Tst-main-02.script
 // Author:    Arndt von Staa
@@ -26,7 +26,7 @@ TALISMAN Log file
 // If you are unlucky, the garbage in memory could be equal to the "expected" garbage \x77
      35 == Test hexadecimal with coded characters controling trailing zero and overflow character
 >>> 1    Line 36  Incorrect hexadecimal compare 
-    1    Line 36          Is: >000102030000< 
+    1    Line 36          Is: >000102030013< 
     1    Line 36   Should be: >000102030077< 
 <<< 0    Line 37  Expected failure or error has been recovered. 
      39 == Test hexadecimal with coded characters
@@ -100,7 +100,7 @@ TALISMAN Log file
     119 == Test mutant with id mutant set to 0
 // must not display mutant
 
-2015/06/17-19:06:11 : !!! End of test, script file: tst-main-09.script
+2015/06/17-22:22:38 : !!! End of test, script file: tst-main-09.script
 !!! **************************************************
 
 !!! --------------------
@@ -108,4 +108,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 26  Test commands 28  Test lines 122
      Test ending condition: No failures found.
 
-2015/06/17-19:06:11 : Log end: EVENT
+2015/06/17-22:22:38 : Log end: EVENT

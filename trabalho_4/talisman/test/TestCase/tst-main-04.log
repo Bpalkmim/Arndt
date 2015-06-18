@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/17-19:06:11 : Log start: EVENT
+2015/06/17-22:22:37 : Log start: EVENT
 
 !!! **************************************************
-2015/06/17-19:06:11 : !!! Start test, script file: tst-main-04.script
+2015/06/17-22:22:37 : !!! Start test, script file: tst-main-04.script
 
 // Script:    Tst-main-02.script
 // Author:    Arndt von Staa
@@ -20,7 +20,7 @@ TALISMAN Log file
 >>> 1    Line 17  Cancel command found .
 >>> 2    Line 17  Test has been canceled. 
 
-2015/06/17-19:06:11 : !!! End of test, script file: tst-main-04.script
+2015/06/17-22:22:37 : !!! End of test, script file: tst-main-04.script
 !!! **************************************************
 
 !!! --------------------
@@ -28,4 +28,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 1  Test commands 3  Test lines 17
      Test ending condition: >>> 2 <<< failures found.
 
-2015/06/17-19:06:11 : Log end: EVENT
+2015/06/17-22:22:37 : Log end: EVENT

@@ -181,6 +181,16 @@
 </Program>
 
 <Program>
+   ProgramName = tst-tsmt
+   <TestScript>
+      TestScriptName = tst-tsmt-01
+   </TestScript>
+   <TestScript>
+      TestScriptName = tst-tsmt-02
+   </TestScript>
+</Program>
+
+<Program>
    ProgramName = tst-rnd
    <TestScript>
       TestScriptName = tst-rnd-01

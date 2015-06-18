@@ -1170,6 +1170,122 @@ Arquivos de diretivas OK.
 
 Resumo das diretivas
 
+Nome do Construto:       Tst-tsmt
+Diretorio Base:          c:\Arndt\trabalho_4\talisman\test\comp
+
+Arquivo de composição:   tst-tsmt.comp
+Arquivo plataforma:      ..\..\tools\programs\ms-cpp.parm
+Arquivo diretivas MAKE:  Tst-tsmt.make
+Arquivo diretivas LINK:  Tst-tsmt.build
+Arquivo listagem:        Tst-tsmt.list
+
+Geracao do arquivo de diretivas MAKE
+
+      M¢dulo: str_bcd.str
+      M¢dulo: str_cnt.str
+      M¢dulo: str_dis.str
+      M¢dulo: str_dsp.str
+      M¢dulo: str_env.str
+      M¢dulo: str_exc.str
+      M¢dulo: str_glb.str
+      M¢dulo: str_global.str
+      M¢dulo: str_log.str
+      M¢dulo: str_msg.str
+      M¢dulo: str_sio.str
+      M¢dulo: str_sls.str
+      M¢dulo: str_smt.str
+      M¢dulo: str_str.str
+      M¢dulo: str_tim.str
+      M¢dulo: str_tst.str
+      M¢dulo: str_ver.str
+      M¢dulo: string.makeup
+      M¢dulo: symbtab.cpp
+>>> Arquivo não existe: str_smt.inc
+      Nao abriu: str_smt.inc
+      M¢dulo: tsymbtab.cpp
+      M¢dulo: tst_tsmt.cpp
+      M¢dulo: bcdarit.cpp
+>>> Arquivo não existe: str_bcd.inc
+      Nao abriu: str_bcd.inc
+      M¢dulo: breakpnt.cpp
+      M¢dulo: counters.cpp
+>>> Arquivo não existe: str_cnt.inc
+      Nao abriu: str_cnt.inc
+>>> Arquivo não existe: str_sio.inc
+      Nao abriu: str_sio.inc
+      M¢dulo: disaster.cpp
+>>> Arquivo não existe: str_dis.inc
+      Nao abriu: str_dis.inc
+      M¢dulo: dynspac.cpp
+>>> Arquivo não existe: str_global.inc
+      Nao abriu: str_global.inc
+>>> Arquivo não existe: str_dsp.inc
+      Nao abriu: str_dsp.inc
+      M¢dulo: environ.cpp
+>>> Arquivo não existe: str_env.inc
+      Nao abriu: str_env.inc
+      M¢dulo: exceptn.cpp
+>>> Arquivo não existe: str_exc.inc
+      Nao abriu: str_exc.inc
+      M¢dulo: global.cpp
+>>> Arquivo não existe: str_glb.inc
+      Nao abriu: str_glb.inc
+      M¢dulo: gnrctest.cpp
+>>> Arquivo não existe: str_tst.inc
+      Nao abriu: str_tst.inc
+      M¢dulo: int_cnt.cpp
+      M¢dulo: int_dsp.cpp
+      M¢dulo: logger.cpp
+>>> Arquivo não existe: str_log.inc
+      Nao abriu: str_log.inc
+      M¢dulo: main.cpp
+      M¢dulo: message.cpp
+>>> Arquivo não existe: str_msg.inc
+      Nao abriu: str_msg.inc
+      M¢dulo: msgbin.cpp
+      M¢dulo: msgstr.cpp
+      M¢dulo: msgtime.cpp
+      M¢dulo: randgen.cpp
+      M¢dulo: readtest.cpp
+      M¢dulo: simplist.cpp
+>>> Arquivo não existe: str_sls.inc
+      Nao abriu: str_sls.inc
+      M¢dulo: sioctrl.cpp
+      M¢dulo: sls_elem.cpp
+      M¢dulo: string.cpp
+>>> Arquivo não existe: str_str.inc
+      Nao abriu: str_str.inc
+>>> Arquivo não existe: string.table
+      Nao abriu: string.table
+      M¢dulo: time.cpp
+>>> Arquivo não existe: str_tim.inc
+      Nao abriu: str_tim.inc
+      M¢dulo: tracer.cpp
+      M¢dulo: verifier.cpp
+>>> Arquivo não existe: str_ver.inc
+      Nao abriu: str_ver.inc
+
+
+
+UTILITARIO: GERADOR DE SCRIPT PARA MAKE
+
+     LES/DI/PUC-Rio    Versao 6.00 (c) 2005 
+
+   Secao [Comandos]
+   Secao [MacrosGerais]
+   Secao [Limpa]
+   Secao [DefaultLink]
+   Secao [Diretorios]
+   Secao [Modulos]
+   Secao [MacrosApos]
+   Secao [BuildInicio]
+
+Validacao das diretivas
+
+Arquivos de diretivas OK.
+
+Resumo das diretivas
+
 Nome do Construto:       Tst-Rnd
 Diretorio Base:          c:\Arndt\trabalho_4\talisman\test\comp
 
