@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/17-22:22:40 : Log start: EVENT
+2015/06/18-00:22:41 : Log start: EVENT
 
 !!! **************************************************
-2015/06/17-22:22:40 : !!! Start test, script file: tst-dsp-04.script
+2015/06/18-00:22:41 : !!! Start test, script file: tst-dsp-04.script
 
 // Script:    Tst-dsp-04.script
 // Author:    Arndt von Staa
@@ -17,19 +17,19 @@ TALISMAN Log file
 !!! 0    Line 17  Number of allocated data spaces: 19 
 !!! 0    Line 18  Total allocated data space size: 12114 
      20 == Allocate space
----Alloc      Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 0095BF50
----Alloc      Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 0095BF90
----Alloc      Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095BFC8
----Alloc      Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 0095C008
----Alloc      Id:    64  Size:    11  Line:   135  File:      tst_dsp.cpp   Addr: 0095C040
----Alloc      Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095C080
----Alloc      Id:    66  Size:     2  Line:   135  File:      tst_dsp.cpp   Addr: 00932610
----Alloc      Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00932648
----Alloc      Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00932688
----Alloc      Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 009326C0
----Alloc      Id:    70  Size:     5  Line:   135  File:      tst_dsp.cpp   Addr: 00932700
----Alloc      Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00932740
----Alloc      Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 00932780
+---Alloc      Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 003DBF50
+---Alloc      Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 003DBF90
+---Alloc      Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003DBFC8
+---Alloc      Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 003DC008
+---Alloc      Id:    64  Size:    11  Line:   135  File:      tst_dsp.cpp   Addr: 003DC040
+---Alloc      Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003DC080
+---Alloc      Id:    66  Size:     2  Line:   135  File:      tst_dsp.cpp   Addr: 003B2610
+---Alloc      Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 003B2648
+---Alloc      Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 003B2688
+---Alloc      Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 003B26C0
+---Alloc      Id:    70  Size:     5  Line:   135  File:      tst_dsp.cpp   Addr: 003B2700
+---Alloc      Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003B2740
+---Alloc      Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 003B2780
      37 == Verify number of bytes
 >>> 1    Line 38  Incorrect number of allocated spaces  Is 32  Should be 30
 >>> 2    Line 39  No recovery provided. Command ignored:  =AllocGetBytes     9602
@@ -49,7 +49,7 @@ TALISMAN Log file
 // should fail with 1 error and a listing of the remaining data space
 // error is detected in  procedure main, after deleting the test and logger objects
 
-2015/06/17-22:22:40 : !!! End of test, script file: tst-dsp-04.script
+2015/06/18-00:22:41 : !!! End of test, script file: tst-dsp-04.script
 !!! **************************************************
 
 !!! --------------------
@@ -57,4 +57,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 9  Test commands 33  Test lines 65
      Test ending condition: >>> 4 <<< failures found.
 
-2015/06/17-22:22:40 : Log end: EVENT
+2015/06/18-00:22:41 : Log end: EVENT

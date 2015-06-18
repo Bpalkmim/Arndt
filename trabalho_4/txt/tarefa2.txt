@@ -1,0 +1,4 @@
+Tarefa 2
+
+Nesta tarefa, foi alterada o método TST_GenerateAndTest. Nele, os casos de inserção, busca e destruição foram corretamente tratados para contabilizar as estatísticas.
+Após compilar corretamente o construto modificado, foi executado o script de teste pelo comando Test.bat tsmt 02. Neste, pode-se observar que o número de ações é igual à soma das estatísticas de cada tipo de ação.

@@ -1,6 +1,6 @@
 TALISMAN Log file
 
-2015/06/17-22:22:41 : Log start: Some Log
+2015/06/18-00:22:42 : Log start: Some Log
 !!! **************************************************
 !!! Start test script file: tst-log-01.script
 
@@ -64,4 +64,4 @@ TALISMAN Log file
    2        57 58 59 5A 30 31 32 33    WXYZ0123
    3  34 35 36 37 38 39 61 62 63 64  456789abcd
    4  65 66 67                       efg       
-2015/06/17-22:22:41 : Log end: Some Log
+2015/06/18-00:22:42 : Log end: Some Log

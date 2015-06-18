@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/17-22:22:40 : Log start: EVENT
+2015/06/18-00:22:41 : Log start: EVENT
 
 !!! **************************************************
-2015/06/17-22:22:40 : !!! Start test, script file: tst-rnd-01.script
+2015/06/18-00:22:41 : !!! Start test, script file: tst-rnd-01.script
 
 // Script:    Tst-rnd-01.script
 // Autor:     Arndt von Staa
@@ -117,33 +117,33 @@ Uniform distribution, fractions
 
      27 == Display uniform distribution of 50 numbers [ 0 .. 49 ] generating 1000 numbers, seed PI + time
 
-   Sqrt( Variance ): 0.000915
+   Sqrt( Variance ): 0.001179
 
 Uniform distribution, counts
 
-    0 =  19969    1 =  19946    2 =  20047    3 =  19780    4 =  19974
-    5 =  19988    6 =  20100    7 =  20040    8 =  20020    9 =  20061
-   10 =  20179   11 =  20194   12 =  20046   13 =  19758   14 =  20126
-   15 =  20138   16 =  19975   17 =  20183   18 =  20004   19 =  19729
-   20 =  19823   21 =  19943   22 =  20081   23 =  19925   24 =  19981
-   25 =  20099   26 =  19718   27 =  19881   28 =  20195   29 =  19895
-   30 =  20104   31 =  20046   32 =  20276   33 =  20090   34 =  19982
-   35 =  19933   36 =  20034   37 =  19962   38 =  20055   39 =  19949
-   40 =  19860   41 =  20102   42 =  20186   43 =  19800   44 =  20054
-   45 =  20005   46 =  20141   47 =  19830   48 =  19949   49 =  19844
+    0 =  19937    1 =  19822    2 =  20456    3 =  19812    4 =  20098
+    5 =  20114    6 =  19941    7 =  19940    8 =  19999    9 =  19838
+   10 =  20039   11 =  20215   12 =  19746   13 =  19924   14 =  19872
+   15 =  19951   16 =  20225   17 =  20167   18 =  19842   19 =  20018
+   20 =  20381   21 =  19888   22 =  19909   23 =  20090   24 =  20249
+   25 =  19923   26 =  20101   27 =  19980   28 =  20217   29 =  20213
+   30 =  19945   31 =  20058   32 =  20013   33 =  20050   34 =  19915
+   35 =  19723   36 =  19952   37 =  20241   38 =  20050   39 =  19824
+   40 =  19868   41 =  19936   42 =  19809   43 =  19771   44 =  20128
+   45 =  20104   46 =  19840   47 =  19873   48 =  19770   49 =  20223
 
 Uniform distribution, fractions
 
-    0= 0.019969    1= 0.019946    2= 0.020047    3= 0.019780    4= 0.019974
-    5= 0.019988    6= 0.020100    7= 0.020040    8= 0.020020    9= 0.020061
-   10= 0.020179   11= 0.020194   12= 0.020046   13= 0.019758   14= 0.020126
-   15= 0.020138   16= 0.019975   17= 0.020183   18= 0.020004   19= 0.019729
-   20= 0.019823   21= 0.019943   22= 0.020081   23= 0.019925   24= 0.019981
-   25= 0.020099   26= 0.019718   27= 0.019881   28= 0.020195   29= 0.019895
-   30= 0.020104   31= 0.020046   32= 0.020276   33= 0.020090   34= 0.019982
-   35= 0.019933   36= 0.020034   37= 0.019962   38= 0.020055   39= 0.019949
-   40= 0.019860   41= 0.020102   42= 0.020186   43= 0.019800   44= 0.020054
-   45= 0.020005   46= 0.020141   47= 0.019830   48= 0.019949   49= 0.019844
+    0= 0.019937    1= 0.019822    2= 0.020456    3= 0.019812    4= 0.020098
+    5= 0.020114    6= 0.019941    7= 0.019940    8= 0.019999    9= 0.019838
+   10= 0.020039   11= 0.020215   12= 0.019746   13= 0.019924   14= 0.019872
+   15= 0.019951   16= 0.020225   17= 0.020167   18= 0.019842   19= 0.020018
+   20= 0.020381   21= 0.019888   22= 0.019909   23= 0.020090   24= 0.020249
+   25= 0.019923   26= 0.020101   27= 0.019980   28= 0.020217   29= 0.020213
+   30= 0.019945   31= 0.020058   32= 0.020013   33= 0.020050   34= 0.019915
+   35= 0.019723   36= 0.019952   37= 0.020241   38= 0.020050   39= 0.019824
+   40= 0.019868   41= 0.019936   42= 0.019809   43= 0.019771   44= 0.020128
+   45= 0.020104   46= 0.019840   47= 0.019873   48= 0.019770   49= 0.020223
 
 
      31 == Display uniform distribution of 50 numbers [ 0 .. 49 ] generating 1000 numbers, given seed
@@ -192,44 +192,44 @@ Frequency table distribution, fractions
 
 Frequency table distribution, counts
 
-    0 =  10086    1 = 479755    2 = 500242    3 =   9917
+    0 =  10092    1 = 480264    2 = 499732    3 =   9912
 
 Frequency table distribution, fractions
 
-    0= 0.010086    1= 0.479755    2= 0.500242    3= 0.009917
+    0= 0.010092    1= 0.480264    2= 0.499732    3= 0.009912
 
 
      43 == Display frequency table 1% 98% 1%   generate 1.000 numbers
 
 Frequency table distribution, counts
 
-    0 =    997    1 =  96968    2 =   2035
+    0 =   1075    1 =  96914    2 =   2011
 
 Frequency table distribution, fractions
 
-    0= 0.009970    1= 0.969680    2= 0.020350
+    0= 0.010750    1= 0.969140    2= 0.020110
 
 
      47 == Display frequency table 1% 99%    generate 1.000 numbers
 
 Frequency table distribution, counts
 
-    0 =    975    1 =  99025
+    0 =   1011    1 =  98989
 
 Frequency table distribution, fractions
 
-    0= 0.009750    1= 0.990250
+    0= 0.010110    1= 0.989890
 
 
      51 == Display frequency table 10% 20% 30% and 40%
 
 Frequency table distribution, counts
 
-    0 =    102    1 =    179    2 =    321    3 =    398
+    0 =    108    1 =    198    2 =    316    3 =    378
 
 Frequency table distribution, fractions
 
-    0= 0.102000    1= 0.179000    2= 0.321000    3= 0.398000
+    0= 0.108000    1= 0.198000    2= 0.316000    3= 0.378000
 
 
      54 == Display frequency table 10% 20% 30% and 40% using seed = PI
@@ -247,11 +247,11 @@ Frequency table distribution, fractions
 
 Frequency table distribution, counts
 
-    0 = 100054    1 = 200448    2 = 299530    3 = 399968
+    0 = 100214    1 = 200529    2 = 300509    3 = 398748
 
 Frequency table distribution, fractions
 
-    0= 0.100054    1= 0.200448    2= 0.299530    3= 0.399968
+    0= 0.100214    1= 0.200529    2= 0.300509    3= 0.398748
 
 
      62 == Display frequency table 10% 20% 30% and 40% using given seed
@@ -269,33 +269,33 @@ Frequency table distribution, fractions
 
 Frequency table distribution, counts
 
-    0 =     89    1 =   2850    2 =   2987    3 =   4074
+    0 =    108    1 =   2894    2 =   2980    3 =   4018
 
 Frequency table distribution, fractions
 
-    0= 0.008900    1= 0.285000    2= 0.298700    3= 0.407400
+    0= 0.010800    1= 0.289400    2= 0.298000    3= 0.401800
 
 
      70 == Display frequency table 98% 2%   generate 1.000 numbers
 
 Frequency table distribution, counts
 
-    0 =    976    1 =     24
+    0 =    982    1 =     18
 
 Frequency table distribution, fractions
 
-    0= 0.976000    1= 0.024000
+    0= 0.982000    1= 0.018000
 
 
      73 == Display frequency table 98% 2%   generate 1.000.000 numbers
 
 Frequency table distribution, counts
 
-    0 = 980067    1 =  19933
+    0 = 980136    1 =  19864
 
 Frequency table distribution, fractions
 
-    0= 0.980067    1= 0.019933
+    0= 0.980136    1= 0.019864
 
 
      76 == Display frequency table 99,8% 0,2%   generate 1.000 numbers
@@ -313,11 +313,11 @@ Frequency table distribution, fractions
 
 Frequency table distribution, counts
 
-    0 = 998047    1 =   1953
+    0 = 997958    1 =   2042
 
 Frequency table distribution, fractions
 
-    0= 0.998047    1= 0.001953
+    0= 0.997958    1= 0.002042
 
 
      82 == Display frequency table 0% 100% 0%   generate 100 numbers
@@ -353,47 +353,47 @@ Frequency table distribution, fractions
 
      87 == Display permutation of 20 elements
 
-Permutation   11    4   17   19   12   10   18   14    7    5
-               0   13    9    2   16    6   15    8    3    1
+Permutation   10    0   18   15    1   17    8   11   19    4
+              14   12   16    9    7    2    3   13    6    5
            
 
      90 == Display permutation of 52 elements
 
-Permutation    1   39   30   10    3   31   48   45   41   20
-              19   18   38   51    4    5    8    6   14   40
-               0   29   23   16    2   11   47   49   37   43
-              26   35    7   44   24   36   12   33   32   28
-              42   34   22   13   46    9   25   17   27   50
-              21   15
+Permutation    8   27   11   47    3   26   36   51   28    1
+              14   42   10    7   17   18   40   15   35   16
+               2   33   39   48   12   21   24   45   13   32
+              37   29   46   41   22   19   44   50   49   25
+              30    9   31   38   20    0   34    5   43    4
+               6   23
 
      93 == Display permutation of 10 elements
 
-Permutation    3    8    1    7    5    2    0    9    6    4
+Permutation    9    3    6    8    1    2    0    5    7    4
            
-Permutation    8    6    4    0    2    1    3    5    9    7
+Permutation    6    9    2    0    7    8    5    1    4    3
            
-Permutation    6    2    5    3    0    7    9    8    1    4
+Permutation    1    4    8    7    6    9    0    3    5    2
            
-Permutation    5    3    0    6    8    1    2    4    9    7
+Permutation    9    7    0    5    8    4    2    6    3    1
            
-Permutation    1    4    3    8    5    0    9    7    6    2
+Permutation    1    6    3    7    5    8    0    2    9    4
            
-Permutation    9    2    8    0    7    4    6    1    3    5
+Permutation    4    5    9    6    3    7    8    1    2    0
            
-Permutation    0    3    2    6    4    5    8    7    1    9
+Permutation    3    1    4    9    2    8    0    7    5    6
            
-Permutation    1    0    5    8    6    9    3    2    7    4
+Permutation    0    4    6    2    1    7    9    3    8    5
            
-Permutation    2    6    1    4    7    0    8    9    3    5
+Permutation    7    6    9    1    5    3    0    8    2    4
            
-Permutation    5    8    4    2    1    9    3    6    7    0
+Permutation    1    3    5    0    2    4    8    6    7    9
            
 
      97 == Display elapsed time
-!!!      Line 98  ========== Clock 1 elapsed time: 0.620 
+!!!      Line 98  ========== Clock 1 elapsed time: 0.575 
 // fim
 
-2015/06/17-22:22:41 : !!! End of test, script file: tst-rnd-01.script
+2015/06/18-00:22:42 : !!! End of test, script file: tst-rnd-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -401,4 +401,4 @@ Permutation    5    8    4    2    1    9    3    6    7    0
      Test statistics:   Test files 1  Test cases 26  Test commands 41  Test lines 100
      Test ending condition: No failures found.
 
-2015/06/17-22:22:41 : Log end: EVENT
+2015/06/18-00:22:42 : Log end: EVENT

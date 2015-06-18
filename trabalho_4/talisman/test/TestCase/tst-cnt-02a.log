@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/17-22:22:41 : Log start: EVENT
+2015/06/18-00:22:42 : Log start: EVENT
 
 !!! **************************************************
-2015/06/17-22:22:41 : !!! Start test, script file: tst-cnt-02.script
+2015/06/18-00:22:42 : !!! Start test, script file: tst-cnt-02.script
 
 // Test counters
       3 == Open counter module counter definition file
@@ -18,7 +18,7 @@ TALISMAN Log file
      34 == Reset counter, does nothing
      39 == Verify zero counters
 
-2015/06/17-22:22:41 : !!! End of test, script file: tst-cnt-02.script
+2015/06/18-00:22:42 : !!! End of test, script file: tst-cnt-02.script
 !!! **************************************************
 
 !!! --------------------
@@ -26,4 +26,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 11  Test commands 17  Test lines 41
      Test ending condition: No failures found.
 
-2015/06/17-22:22:41 : Log end: EVENT
+2015/06/18-00:22:42 : Log end: EVENT

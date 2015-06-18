@@ -1795,10 +1795,10 @@ Estatísticas do construto
       time.cpp
 
    Estatísticas do arquivo: tst_tsmt.cpp
-      Total linhas:             994
-      Linhas de código:         525
-      Linhas de comentário:     184
-      Linhas em branco:         292
+      Total linhas:            1035
+      Linhas de código:         563
+      Linhas de comentário:     183
+      Linhas em branco:         296
    Arquivos de inclusão de que necessita
       bcdarit.hpp
       counters.hpp
@@ -2032,18 +2032,18 @@ Totais por tipo de arquivo
          Arquivos deste tipo:         20
 
   Tipo: cpp      Path: ..\sources
-         Total linhas do tipo:     16612
-         Linhas de código:          8967
-         Linhas de comentário:      3258
-         Linhas em branco:          4368
+         Total linhas do tipo:     16653
+         Linhas de código:          9005
+         Linhas de comentário:      3257
+         Linhas em branco:          4372
          Arquivos deste tipo:         29
 
 Totais para todo o construto Tst-tsmt
 
-   Total linhas:             28900
-   Linhas de código:         10710
-   Linhas de comentário:      9612
-   Linhas em branco:          6331
+   Total linhas:             28941
+   Linhas de código:         10748
+   Linhas de comentário:      9611
+   Linhas em branco:          6335
    Arquivos processados:        83
 
 >>> Ocorreram erros ao gerar.

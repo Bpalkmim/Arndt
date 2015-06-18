@@ -2,15 +2,29 @@
 Justificativa: Obter conhecimento mais específico acerca do conteúdo necessário para realizar o trabalho.
 
 Preparar o ambiente de trabalho
-Justificativa: paso referente às primeiras tarefas do trabalho.
+Justificativa: Configurar o ambiente para rodar o arcabouço de teste.
 
-Projetar e revisar
+Criar um clone do módulo a ser testado
+Justificativa: Criar um clone que pode ser alterado, enquanto o original está em uso.
 
-Redigir e revisar
+Completar o gerador/executor de casos de teste
+Justificativa: TODO
+
+Completar a medição
+Justificativa: TODO
+
+Medir cobertura de resultados
+Justificativa: TODO
+
+Medir eficácia do script
+Justificativa: TODO
+
+Estudar efeito da escolha do tamanho da tabela de randomização
+Justificativa: TODO
 
 ---
 
-27/05
+16/06
 2h
 Bernardo Gabriel Renan
 Estudar
@@ -22,4 +36,20 @@ Bernardo Gabriel
 Preparar o ambiente de trabalho
 Preparamos nossas máquinas para fazer o trabalho.
 
+17/06
+2h
+Gabriel
+Criar um clone do módulo a ser testado
+Criei o clone de acordo com enúnciado e recompilei o arcabouço.
 
+17/06
+1h
+Gabriel
+Estudar
+Estudei o código do gerador de testes e da tabela de símbolos. 
+
+17/06
+2h
+Gabriel
+Completar o gerador/executor de casos de teste
+Completei a geração e a execução dos comandos de teste.

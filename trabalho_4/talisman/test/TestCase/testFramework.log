@@ -739,15 +739,15 @@ LES - Laboratorio de Engenharia de Software
 
 >>> 13 Allocated data spaces remain: 9, verify memory leakage.
 
->>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 00932780
->>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 00932740
->>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 009326C0
->>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00932688
->>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00932648
->>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095C080
->>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 0095C008
->>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 0095BFC8
->>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 0095BF50
+>>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 003B2780
+>>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003B2740
+>>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 003B26C0
+>>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 003B2688
+>>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 003B2648
+>>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003DC080
+>>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 003DC008
+>>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 003DBFC8
+>>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 003DBF50
 >>> Log closed: 
 !!! Spaces still allocated:          9
 >>> Log closed: 
@@ -1063,19 +1063,19 @@ LES - Laboratorio de Engenharia de Software
 !!! Do not count passages.
 !!! ------------------------------
 
-2015/06/17-22:22:41 : Log end: ???
+2015/06/18-00:22:42 : Log end: ???
 
-2015/06/17-22:22:41 : Log start: Error log
+2015/06/18-00:22:42 : Log start: Error log
 ?????? Error log line sent to console.
-2015/06/17-22:22:41 : Log end: Error log
+2015/06/18-00:22:42 : Log end: Error log
 
-2015/06/17-22:22:41 : Log start: Console log
+2015/06/18-00:22:42 : Log start: Console log
 ------ Console log line 1.
 ------ Console log line 2.
 ------ Console log line 3.
-2015/06/17-22:22:41 : Log end: Console log
+2015/06/18-00:22:42 : Log end: Console log
 
-2015/06/17-22:22:41 : Log start: Console log
+2015/06/18-00:22:42 : Log start: Console log
 ------ Console log line 1.
 >abcdefghi<
 >abcdefghi<
@@ -1087,7 +1087,7 @@ LES - Laboratorio de Engenharia de Software
 >\x00\x01abcdefgh...<
 >...<
 >...<
-2015/06/17-22:22:41 : Log end: Console log
+2015/06/18-00:22:42 : Log end: Console log
 
 
 !!! Test statistics:   Test files 1  Test cases 22  Test commands 188  Test lines 250

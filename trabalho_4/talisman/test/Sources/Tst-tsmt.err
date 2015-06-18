@@ -4,7 +4,6 @@
 
 tsymbtab.cpp
 tst_tsmt.cpp
-..\sources\tst_tsmt.cpp(801) : warning C4189: 'pRetSymbol' : local variable is initialized but not referenced
 main.cpp
 Microsoft (R) Incremental Linker Version 11.00.50727.1
 Copyright (C) Microsoft Corporation.  All rights reserved.

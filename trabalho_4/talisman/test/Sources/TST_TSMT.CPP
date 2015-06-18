@@ -788,6 +788,26 @@
 
             SMTE_TSymbolTableElement * pRetSymbol =
                       pSymbolTable->InsertSymbol( pSymbol ) ;
+			
+			if ( ( pRetSymbol == NULL )
+              && ( !vtSymbol[ inxSymb ].isInTable )) {
+				countInsertTrue++;
+				vtSymbol[ inxSymb ].isInTable = true;
+			} else if ( ( pRetSymbol != NULL )
+              && ( vtSymbol[ inxSymb ].isInTable )) {
+				countInsertFalse++;
+			} else {
+              if ( vtSymbol[ inxSymb ].isInTable )
+               {
+                  sprintf( msg , "Incorrect insert, >%s< was inserted again." , pSym ) ;
+               } else
+               {
+                  sprintf( msg , "Incorrect insert, >%s< wasn't inserted." , pSym ) ;
+               } /* if */
+
+               pTester->DisplayErrorMsg( msg ) ;
+               countError ++ ;
+			}
 
             delete pRetSymbol ;
 
@@ -800,9 +820,8 @@
 
             SMTE_TSymbolTableElement * pRetSymbol =
                       pSymbolTable->SearchSymbol( strlen( pSym ) , pSym ) ;
-#if 0
 
-            if ( ( pRetSymbol == NULL )
+		    if ( ( pRetSymbol == NULL )
               && ( !vtSymbol[ inxSymb ].isInTable ))
             {
                countRetrieveFalse++ ;
@@ -824,7 +843,6 @@
                pTester->DisplayErrorMsg( msg ) ;
                countError ++ ;
             } /* if */
-#endif
 
          } // end selection: Perform action retrieve
 
@@ -833,8 +851,31 @@
          if ( idAction == 2 )
          {
 
-//            bool isDeleted = pSymbolTable->DeleteSymbol( strlen( pSym ) , pSym ) ;
+			bool isDeleted = pSymbolTable->DeleteSymbol( strlen( pSym ) , pSym ) ;
+			
+			if ( isDeleted
+              && vtSymbol[ inxSymb ].isInTable )
+            {
+               countDeleteTrue++ ;
+			   vtSymbol[ inxSymb ].isInTable = false;
 
+            } else if ( !isDeleted
+              && !vtSymbol[ inxSymb ].isInTable )
+            {
+               countDeleteFalse++ ;
+            } else
+            {
+               if ( vtSymbol[ inxSymb ].isInTable )
+               {
+                  sprintf( msg , "Incorrect delete, >%s< wasn't deleted from table." , pSym ) ;
+               } else
+               {
+                  sprintf( msg , "Incorrect delete, >%s< has been deleted and wasn't in the table." , pSym ) ;
+               } /* if */
+
+               pTester->DisplayErrorMsg( msg ) ;
+               countError ++ ;
+            } /* if */
          } // end selection: Perform action delete
 
       // Verify table structure at given intervals
