@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:41 : Log start: EVENT
+2015/06/18-14:18:31 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:41 : !!! Start test, script file: tst-dsp-01.script
+2015/06/18-14:18:31 : !!! Start test, script file: tst-dsp-01.script
 
 // Script:    Tst-dsp-01.script
 // Author:    Arndt von Staa
@@ -19,47 +19,47 @@ TALISMAN Log file
 >>> 1    Line 21  Check memory leakage. Incorrect number of data spaces  Is 22  Should be 19
 <<< 0    Line 22  Expected failure or error has been recovered. 
      24 == Display spaces by reference, only headers
----DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 0071BF50
----DataSpace  Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 0071BF90
----DataSpace  Id:    62  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 0071BFC8
+---DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 00685F88
+---DataSpace  Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00685FC8
+---DataSpace  Id:    62  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00682990
      30 == Display spaces by id
----DataSpace  Id:    51  Size:    12  Line:    74  File:       msgstr.cpp   Addr: 0071BEC8
+---DataSpace  Id:    51  Size:    12  Line:    74  File:       msgstr.cpp   Addr: 00685F00
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 6D 73 67 73 74 72 2E 63 70 70 00 00  .√)˙msgstr.cpp..
-   1  00 00 00 00 4A 00 00 00 33 00 00 00 08 BF 71 00  ....J...3....øq.
-   2  88 BE 71 00 0C 00 00 00 F6 3C 4C 23 D7 00 11 00  àæq.....ˆ<L#◊...
-   3  00 00 32 BF 71 00 F6 3C                          ..2øq.ˆ<        
----DataSpace  Id:    52  Size:    18  Line:   675  File:       string.cpp   Addr: 0071BF08
+   1  00 00 00 00 4A 00 00 00 33 00 00 00 40 5F 68 00  ....J...3...@_h.
+   2  30 9B 68 00 0C 00 00 00 F6 3C 28 23 2D 00 11 00  0õh.....ˆ<(#-...
+   3  00 00 6A 5F 68 00 F6 3C                          ..j_h.ˆ<        
+---DataSpace  Id:    52  Size:    18  Line:   675  File:       string.cpp   Addr: 00685F40
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 73 74 72 69 6E 67 2E 63 70 70 00 00  .√)˙string.cpp..
-   1  00 00 00 00 A3 02 00 00 34 00 00 00 50 BF 71 00  ....£...4...Pøq.
-   2  C8 BE 71 00 12 00 00 00 F6 3C 74 73 74 2D 64 73  »æq.....ˆ<tst-ds
+   1  00 00 00 00 A3 02 00 00 34 00 00 00 88 5F 68 00  ....£...4...à_h.
+   2  00 5F 68 00 12 00 00 00 F6 3C 74 73 74 2D 64 73  ._h.....ˆ<tst-ds
    3  70 2D 30 31 2E 73 63 72 69 70 74 00 F6 3C        p-01.script.ˆ<  
 
 !!!  Data space id: 53  does not exist.
      36 == Display not existing space id
----DataSpace  Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 0071BF90
+---DataSpace  Id:    61  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 00685FC8
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 74 73 74 5F 64 73 70 2E 63 70 70 00  .√)˙tst_dsp.cpp.
-   1  00 00 00 00 87 00 00 00 3D 00 00 00 C8 BF 71 00  ....á...=...»øq.
-   2  50 BF 71 00 04 00 00 00 F6 3C 78 79 7A 00 F6 3C  Pøq.....ˆ<xyz.ˆ<
+   1  00 00 00 00 87 00 00 00 3D 00 00 00 90 29 68 00  ....á...=...ê)h.
+   2  88 5F 68 00 04 00 00 00 F6 3C 78 79 7A 00 F6 3C  à_h.....ˆ<xyz.ˆ<
      39 == Corrupt underflow control in space 1
----DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 0071BF50
+---DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 00685F88
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 74 73 74 5F 64 73 70 2E 63 70 70 00  .√)˙tst_dsp.cpp.
-   1  00 00 00 00 87 00 00 00 3C 00 00 00 90 BF 71 00  ....á...<...êøq.
-   2  08 BF 71 00 09 00 00 00 F6 23 61 62 63 64 65 66  .øq.....ˆ#abcdef
+   1  00 00 00 00 87 00 00 00 3C 00 00 00 C8 5F 68 00  ....á...<...»_h.
+   2  40 5F 68 00 09 00 00 00 F6 23 61 62 63 64 65 66  @_h.....ˆ#abcdef
    3  67 68 00 F6 3C                                   gh.ˆ<           
      43 == Test pointer verifier. Space 2 is OK, space 1 has been corrupted
 >>> ERROR DYNSPAC  Data space error 5:  Space id 60  Line: 135  File: tst_dsp.cpp
 >>> 1    Line 45  Incorrect pointer verification return.  Is false, should be true.
 <<< 0    Line 46  Expected failure or error has been recovered. 
      48 == Corrupt overflow control in space 3
----DataSpace  Id:    62  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 0071BFC8
+---DataSpace  Id:    62  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 00682990
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 74 73 74 5F 64 73 70 2E 63 70 70 00  .√)˙tst_dsp.cpp.
    1  00 00 00 00 87 00 00 00 3E 00 00 00 00 00 00 00  ....á...>.......
-   2  90 BF 71 00 06 00 00 00 F6 3C 64 65 66 67 68 00  êøq.....ˆ<defgh.
+   2  C8 5F 68 00 06 00 00 00 F6 3C 64 65 66 67 68 00  »_h.....ˆ<defgh.
    3  24 3C                                            $<              
      52 == Test pointer verifier. Space 2 is OK, space 3 has been corrupted
 >>> ERROR DYNSPAC  Data space error 6:  Space id 62  Line: 135  File: tst_dsp.cpp
@@ -71,11 +71,11 @@ TALISMAN Log file
      62 == Delete corrupted dataspace, should cancel
 >>> ERROR DYNSPAC  Data space error 5:  Space id 60  Line: 135  File: tst_dsp.cpp
 >>> ERROR DYNSPAC  Tried to delete invalid data space.
----DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 0071BF50
+---DataSpace  Id:    60  Size:     9  Line:   135  File:      tst_dsp.cpp   Addr: 00685F88
       00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  0123456789ABCDEF
    0  04 C3 29 FA 74 73 74 5F 64 73 70 2E 63 70 70 00  .√)˙tst_dsp.cpp.
-   1  00 00 00 00 87 00 00 00 3C 00 00 00 C8 BF 71 00  ....á...<...»øq.
-   2  08 BF 71 00 09 00 00 00 F6 23 61 62 63 64 65 66  .øq.....ˆ#abcdef
+   1  00 00 00 00 87 00 00 00 3C 00 00 00 90 29 68 00  ....á...<...ê)h.
+   2  40 5F 68 00 09 00 00 00 F6 23 61 62 63 64 65 66  @_h.....ˆ#abcdef
    3  67 68 00 F6 3C                                   gh.ˆ<           
 
 

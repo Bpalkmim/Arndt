@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:42 : Log start: EVENT
+2015/06/18-14:20:44 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:42 : !!! Start test, script file: tst-dll-01.script
+2015/06/18-14:20:44 : !!! Start test, script file: tst-dll-01.script
 
 // Script:    Tst-str-01.script
 // Author:    Arndt von Staa
@@ -119,7 +119,7 @@ TALISMAN Log file
     776 == Compare global string
     780 == verify memory leak
 
-2015/06/18-00:22:42 : !!! End of test, script file: tst-dll-01.script
+2015/06/18-14:20:44 : !!! End of test, script file: tst-dll-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -127,4 +127,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 109  Test commands 557  Test lines 783
      Test ending condition: No failures found.
 
-2015/06/18-00:22:42 : Log end: EVENT
+2015/06/18-14:20:44 : Log end: EVENT

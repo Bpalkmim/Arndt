@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:40 : Log start: EVENT
+2015/06/18-14:14:31 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:40 : !!! Start test, script file: tst-main-10.script
+2015/06/18-14:14:31 : !!! Start test, script file: tst-main-10.script
 
 // Script:    Tst-main-10.script
 // Author:    Arndt von Staa
@@ -45,7 +45,7 @@ TALISMAN Log file
 >>> 1    Line 33  Parameter name already defined OpenRead
 <<< 0    Line 34  Expected failure or error has been recovered. 
 
-2015/06/18-00:22:40 : !!! End of test, script file: tst-main-10.script
+2015/06/18-14:14:31 : !!! End of test, script file: tst-main-10.script
 !!! **************************************************
 
 !!! --------------------
@@ -53,4 +53,4 @@ TALISMAN Log file
      Test statistics:   Test files 2  Test cases 8  Test commands 23  Test lines 36
      Test ending condition: No failures found.
 
-2015/06/18-00:22:40 : Log end: EVENT
+2015/06/18-14:14:31 : Log end: EVENT

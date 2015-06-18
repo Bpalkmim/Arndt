@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:42 : Log start: EVENT
+2015/06/18-14:20:43 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:42 : !!! Start test, script file: tst-sio-01.script
+2015/06/18-14:20:43 : !!! Start test, script file: tst-sio-01.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -60,7 +60,7 @@ TALISMAN Log file
 <<< 0    Line 171  Expected failure or error has been recovered. 
     173 == Verify leakage
 
-2015/06/18-00:22:42 : !!! End of test, script file: tst-sio-01.script
+2015/06/18-14:20:43 : !!! End of test, script file: tst-sio-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -68,4 +68,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 34  Test commands 98  Test lines 177
      Test ending condition: No failures found.
 
-2015/06/18-00:22:42 : Log end: EVENT
+2015/06/18-14:20:43 : Log end: EVENT

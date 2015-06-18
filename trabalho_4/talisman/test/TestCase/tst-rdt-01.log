@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:40 : Log start: EVENT
+2015/06/18-14:16:15 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:40 : !!! Start test, script file: tst-rdt-01.script
+2015/06/18-14:16:15 : !!! Start test, script file: tst-rdt-01.script
 
 // Script:    Tst-rdt-01.script
 // Author:    Arndt von Staa
@@ -98,7 +98,7 @@ TALISMAN Log file
     289 == Destroy everything
 // end
 
-2015/06/18-00:22:40 : !!! End of test, script file: tst-rdt-01.script
+2015/06/18-14:16:15 : !!! End of test, script file: tst-rdt-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -106,4 +106,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 52  Test commands 171  Test lines 291
      Test ending condition: No failures found.
 
-2015/06/18-00:22:40 : Log end: EVENT
+2015/06/18-14:16:15 : Log end: EVENT

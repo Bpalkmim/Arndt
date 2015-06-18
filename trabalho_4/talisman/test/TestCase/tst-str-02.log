@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-00:22:40 : Log start: EVENT
+2015/06/18-14:17:23 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-00:22:40 : !!! Start test, script file: tst-str-02.script
+2015/06/18-14:17:23 : !!! Start test, script file: tst-str-02.script
 
 // Script:    Tst-str-01.script
 // Author:    Arndt von Staa
@@ -14,7 +14,7 @@ TALISMAN Log file
      25 == Construct empty pointed string
      32 == verify memory leak
 
-2015/06/18-00:22:40 : !!! End of test, script file: tst-str-02.script
+2015/06/18-14:17:23 : !!! End of test, script file: tst-str-02.script
 !!! **************************************************
 
 !!! --------------------
@@ -22,4 +22,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 4  Test commands 21  Test lines 35
      Test ending condition: No failures found.
 
-2015/06/18-00:22:40 : Log end: EVENT
+2015/06/18-14:17:23 : Log end: EVENT
