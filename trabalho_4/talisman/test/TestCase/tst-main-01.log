@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-14:14:30 : Log start: EVENT
+2015/06/20-11:55:04 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-14:14:30 : !!! Start test, script file: tst-main-01.script
+2015/06/20-11:55:04 : !!! Start test, script file: tst-main-01.script
 
 // Script:    Tst-env-01.script
 // Author:    Arndt von Staa
@@ -16,7 +16,7 @@ TALISMAN Log file
 //
 >>> 1    Line 12  Test script contains no test case. 
 
-2015/06/18-14:14:30 : !!! End of test, script file: tst-main-01.script
+2015/06/20-11:55:04 : !!! End of test, script file: tst-main-01.script
 !!! **************************************************
 >>> ERROR:   Could not open Source accumulated statistics file: testFramework.stats
 
@@ -25,4 +25,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 0  Test commands 0  Test lines 12
      Test ending condition: >>> 1 <<< failures found.
 
-2015/06/18-14:14:30 : Log end: EVENT
+2015/06/20-11:55:04 : Log end: EVENT

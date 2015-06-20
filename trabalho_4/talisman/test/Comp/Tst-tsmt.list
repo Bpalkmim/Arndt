@@ -1795,10 +1795,10 @@ Estatísticas do construto
       time.cpp
 
    Estatísticas do arquivo: tst_tsmt.cpp
-      Total linhas:            1035
-      Linhas de código:         563
-      Linhas de comentário:     183
-      Linhas em branco:         296
+      Total linhas:            1046
+      Linhas de código:         572
+      Linhas de comentário:     184
+      Linhas em branco:         297
    Arquivos de inclusão de que necessita
       bcdarit.hpp
       counters.hpp
@@ -1843,10 +1843,10 @@ Estatísticas do construto
       tst_tsmt.cpp
 
    Estatísticas do arquivo: tsymbtab.cpp
-      Total linhas:             315
-      Linhas de código:         137
-      Linhas de comentário:      86
-      Linhas em branco:          85
+      Total linhas:             330
+      Linhas de código:         147
+      Linhas de comentário:      88
+      Linhas em branco:          87
    Arquivos de inclusão de que necessita
       bcdarit.hpp
       dynspac.hpp
@@ -1862,10 +1862,10 @@ Estatísticas do construto
       typeidmessageitem.inc
 
    Estatísticas do arquivo: tsymbtab.hpp
-      Total linhas:             395
-      Linhas de código:          48
-      Linhas de comentário:     203
-      Linhas em branco:          62
+      Total linhas:             414
+      Linhas de código:          50
+      Linhas de comentário:     214
+      Linhas em branco:          64
    Arquivos de inclusão de que necessita
       simplist.hpp
       sls_elem.hpp
@@ -1983,10 +1983,10 @@ Totais por tipo de arquivo
          Arquivos deste tipo:          4
 
   Tipo: hpp      Path: ..\sources
-         Total linhas do tipo:     11062
-         Linhas de código:          1478
-         Linhas de comentário:      5819
-         Linhas em branco:          1665
+         Total linhas do tipo:     11081
+         Linhas de código:          1480
+         Linhas de comentário:      5830
+         Linhas em branco:          1667
          Arquivos deste tipo:         29
 
   Tipo: ferram   Path: ..\..\tools\programs
@@ -2032,18 +2032,18 @@ Totais por tipo de arquivo
          Arquivos deste tipo:         20
 
   Tipo: cpp      Path: ..\sources
-         Total linhas do tipo:     16653
-         Linhas de código:          9005
-         Linhas de comentário:      3257
-         Linhas em branco:          4372
+         Total linhas do tipo:     16679
+         Linhas de código:          9024
+         Linhas de comentário:      3260
+         Linhas em branco:          4375
          Arquivos deste tipo:         29
 
 Totais para todo o construto Tst-tsmt
 
-   Total linhas:             28941
-   Linhas de código:         10748
-   Linhas de comentário:      9611
-   Linhas em branco:          6335
+   Total linhas:             28986
+   Linhas de código:         10769
+   Linhas de comentário:      9625
+   Linhas em branco:          6340
    Arquivos processados:        83
 
 >>> Ocorreram erros ao gerar.

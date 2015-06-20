@@ -53,3 +53,9 @@ Estudei o código do gerador de testes e da tabela de símbolos.
 Gabriel
 Completar o gerador/executor de casos de teste
 Completei a geração e a execução dos comandos de teste.
+
+20/06
+2h
+Gabriel
+Completar a medição
+Criei o método para calcular as estatísticas básicas e fiz a chamada deste no módulo de teste.

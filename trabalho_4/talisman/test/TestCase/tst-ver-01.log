@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-14:20:44 : Log start: EVENT
+2015/06/20-11:55:07 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-14:20:44 : !!! Start test, script file: tst-ver-01.script
+2015/06/20-11:55:07 : !!! Start test, script file: tst-ver-01.script
 
 // Script:    Tst-ver-01.script
 // Author:    Arndt von Staa
@@ -31,16 +31,16 @@ TALISMAN Log file
        See help 3 for details
 >>> ERROR:   ffffff
      22 == Display verification start
---- VERIFY:  At 2015/06/18-14:20:44 verification started. abcde
---- VERIFY:  At 2015/06/18-14:20:44 verification started. 
+--- VERIFY:  At 2015/06/20-11:55:07 verification started. abcde
+--- VERIFY:  At 2015/06/20-11:55:07 verification started. 
      26 == Display verification section
 --- VERIFY:  Verify: xyz
      29 == Display verification end
---- VERIFY:  At 2015/06/18-14:20:44 verification ended. No errors were found
---- VERIFY:  At 2015/06/18-14:20:44 verification ended. Errors were found
---- VERIFY:  At 2015/06/18-14:20:44 verification ended. 100 errors found
+--- VERIFY:  At 2015/06/20-11:55:07 verification ended. No errors were found
+--- VERIFY:  At 2015/06/20-11:55:07 verification ended. Errors were found
+--- VERIFY:  At 2015/06/20-11:55:07 verification ended. 100 errors found
 
-2015/06/18-14:20:44 : !!! End of test, script file: tst-ver-01.script
+2015/06/20-11:55:07 : !!! End of test, script file: tst-ver-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -48,4 +48,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 5  Test commands 18  Test lines 33
      Test ending condition: No failures found.
 
-2015/06/18-14:20:44 : Log end: EVENT
+2015/06/20-11:55:07 : Log end: EVENT

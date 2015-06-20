@@ -57,7 +57,8 @@
 //    bool DeleteSymbol( int lenString , char * pString )
 // 
 //    bool Verify( const TAL_tpVerifyMode ModeParm )
-// 
+//
+//    int* CalculaEstatísticas()
 // 
 ////////////////////////////////////////////////////////////////////////////
 
@@ -350,6 +351,24 @@ class SMT_TSymbolTable
    public:
       bool Verify( const TAL_tpVerifyMode ModeParm )  ;
 
+////////////////////////////////////////////////////////////////////////////
+// 
+//  Method: SMT  !Calcula Estatísticas
+// 
+// Description
+//    Calcula o número de símbolos para cada uma das listas de colisão
+//
+// Return value
+//    Retorna um vetor, alocado dinâmicamente, com o número de símbolos
+//    para cada lista de colisão.
+//    Retorna por referência o tamanho do vetor.
+//    Este vetor deve ser liberado por quem fez a chamada.
+// 
+////////////////////////////////////////////////////////////////////////////
+
+   public:
+      int* CalculaEstatisticas(int* tamanho);
+	  
 ////////////////////////////////////////////////////////////////////////////
 
 //  Method: SMT  $Compute hash

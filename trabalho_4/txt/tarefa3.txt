@@ -1,0 +1,4 @@
+Tarefa 3
+
+Inicialmente, foi criado o método CalculaEstatisticas na classe SMT_TSymbolTable. Este método retorna um vetor com o número de símbolos em cada lista de colisão.
+Em seguida, foi feita a chamada dentro do método DisplayRandomTestResult da classe TST_GenerateTestSuite. Para testar, bastou executar o script TST-tsmt-02.script.

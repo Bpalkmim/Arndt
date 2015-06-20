@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-14:15:05 : Log start: EVENT
+2015/06/20-11:55:04 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-14:15:05 : !!! Start test, script file: tst-exc-01.script
+2015/06/20-11:55:04 : !!! Start test, script file: tst-exc-01.script
 
 // Script:    Tst-exc-01.script
 // Author:    Arndt von Staa
@@ -83,7 +83,7 @@ Exception: USAGE: +++ Usage error exception +++
             >>> id help: 111
 
      57 == Log the error
-2015/06/18-14:15:05 : USAGE: +++ Usage error exception +++
+2015/06/20-11:55:04 : USAGE: +++ Usage error exception +++
         Exception thrown in Line: 12345  File: aFile
 
      61 == verify memory leak
@@ -91,7 +91,7 @@ Exception: USAGE: +++ Usage error exception +++
 // ==========>>> Must display test OK
 //
 
-2015/06/18-14:15:05 : !!! End of test, script file: tst-exc-01.script
+2015/06/20-11:55:04 : !!! End of test, script file: tst-exc-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -99,4 +99,4 @@ Exception: USAGE: +++ Usage error exception +++
      Test statistics:   Test files 1  Test cases 15  Test commands 29  Test lines 71
      Test ending condition: No failures found.
 
-2015/06/18-14:15:05 : Log end: EVENT
+2015/06/20-11:55:04 : Log end: EVENT

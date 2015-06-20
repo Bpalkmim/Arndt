@@ -279,6 +279,21 @@
       return ErrorCount == 0 ;
 
    } // End of function: SMT  !Verify symbol table structure
+   
+////////////////////////////////////////////////////////////////////////////
+// 
+//  Method: SMT  !Calcula Estatísticas
+
+int* SMT_TSymbolTable::CalculaEstatisticas(int* tamanho)
+{
+    int* output = new int[dimVtHash];
+    *tamanho = dimVtHash;
+    for (int inxList = 0; inxList < dimVtHash; inxList++ ) {
+        SLS_SimpleList* pCurrentList = &( HashVector[ inxList ] );
+        output[ inxList ] = pCurrentList->GetNumberElements();
+    }
+    return output;
+}
 
 //==========================================================================
 //----- Private method implementations -----

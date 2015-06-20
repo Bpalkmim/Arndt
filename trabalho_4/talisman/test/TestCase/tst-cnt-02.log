@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-14:20:43 : Log start: EVENT
+2015/06/20-11:55:06 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-14:20:43 : !!! Start test, script file: tst-cnt-02.script
+2015/06/20-11:55:06 : !!! Start test, script file: tst-cnt-02.script
 
 // Test counters
       3 == Open counter module counter definition file
@@ -42,7 +42,7 @@ ccc 0    Line 8  Counter value:     0  name: ICNT &Interpret passage counter com
 >>> 10   Line 40  Zero count in counter: ICNT &Interpret passage counter commands
 >>> 11   Line 40  Incorrect number of counters containing zero  Is 10  Should be 0
 
-2015/06/18-14:20:43 : !!! End of test, script file: tst-cnt-02.script
+2015/06/20-11:55:06 : !!! End of test, script file: tst-cnt-02.script
 !!! **************************************************
 !!! 11   Line 41   Verifying counters at end of test run 
 ccc 11   Line 41  Zero count in counter: Handle: Delete accumulated counters file
@@ -61,4 +61,4 @@ ccc 11   Line 41  Zero count in counter: ICNT &Interpret passage counter command
      Test statistics:   Test files 1  Test cases 11  Test commands 17  Test lines 41
      Test ending condition: >>> 11 <<< failures found.
 
-2015/06/18-14:20:43 : Log end: EVENT
+2015/06/20-11:55:06 : Log end: EVENT

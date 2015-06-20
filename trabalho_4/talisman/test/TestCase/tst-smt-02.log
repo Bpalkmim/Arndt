@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/18-14:19:39 : Log start: EVENT
+2015/06/20-11:55:05 : Log start: EVENT
 
 !!! **************************************************
-2015/06/18-14:19:39 : !!! Start test, script file: tst-smt-02.script
+2015/06/20-11:55:05 : !!! Start test, script file: tst-smt-02.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -20,7 +20,7 @@ TALISMAN Log file
 !!!      Line 22  Number of deletes:       0  Number of failed deletes:       0 
      24 == Verify leakage
 
-2015/06/18-14:19:39 : !!! End of test, script file: tst-smt-02.script
+2015/06/20-11:55:05 : !!! End of test, script file: tst-smt-02.script
 !!! **************************************************
 
 !!! --------------------
@@ -28,4 +28,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
      Test ending condition: No failures found.
 
-2015/06/18-14:19:39 : Log end: EVENT
+2015/06/20-11:55:05 : Log end: EVENT

@@ -968,8 +968,19 @@
          sprintf( msg , "Number of deletes:   %5d  Number of failed deletes:   %5d" ,
                    countDeleteTrue , countDeleteFalse ) ;
          pTester->DisplayInformation( msg , "" ) ;
+         
+        // Mostra as estatísticas
+        pTester->DisplayInformation("Numero de simbolos por lista de colisao:", "");
+        pTester->DisplayInformation("  Lista | Simbolos", "");
+        int tamEstatisticas;
+        int* estatisticas = pSymbolTable->CalculaEstatisticas(&tamEstatisticas);
+        for (int i = 0; i < tamEstatisticas; i++) {
+            sprintf(msg, "  %5d | %8d", i, estatisticas[i]);
+            pTester->DisplayInformation(msg, "");
+        }
+        delete[] estatisticas;
 
-   } // End of function: TSMT !Display test result
+    } // End of function: TSMT !Display test result
 
 ////////////////////////////////////////////////////////////////////////////
 // 
