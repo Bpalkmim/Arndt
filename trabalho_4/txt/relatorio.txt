@@ -8,19 +8,19 @@ Criar um clone do módulo a ser testado
 Justificativa: Criar um clone que pode ser alterado, enquanto o original está em uso.
 
 Completar o gerador/executor de casos de teste
-Justificativa: TODO
+Justificativa: Ele se encontra incompleto para os testes que pretendemos realizar.
 
 Completar a medição
-Justificativa: TODO
+Justificativa: A medição precisa mostrar as estatísticas detalhadamente.
 
 Medir cobertura de resultados
-Justificativa: TODO
+Justificativa: Devemos cobrir o máximo de casos de contorno possíveis.
 
 Medir eficácia do script
-Justificativa: TODO
+Justificativa: Devemos garantir que nosso script funciona eficientemente.
 
-Estudar efeito da escolha do tamanho da tabela de randomização
-Justificativa: TODO
+Estudar efeito da escolha do tamanho da tabela
+Justificativa: Verificar a consistência do nosso teste para tamanhos diferentes de entrada.
 
 ---
 
@@ -77,3 +77,20 @@ Escolhi os operadores de mutação, criei os mutantes e rodei os testes para ele
 Renan
 Medir eficácia do script
 Verifiquei e ajustei o script usando o gerador para que todos os mutantes fossem "mortos".
+
+22/06
+1h
+Bernardo
+Medir cobertura de resultados
+Alterei o script para lidar com mais de 10 ações e justifuquei minha escolha de valores.
+
+22/06
+1h30
+Bernardo
+Estudar efeito da escolha do tamanho da tabela
+Criei um novo script no qual fui alterando o tamanho da tabela e fui tomando notas.
+
+22/06
+30min
+Bernardo
+Preparei os arquivos para envio.
