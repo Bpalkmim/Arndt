@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:03:11 : Log start: EVENT
+2015/06/21-21:50:47 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:03:11 : !!! Start test, script file: tst-main-09.script
+2015/06/21-21:50:47 : !!! Start test, script file: tst-main-09.script
 
 // Script:    Tst-main-02.script
 // Author:    Arndt von Staa
@@ -100,7 +100,7 @@ TALISMAN Log file
     119 == Test mutant with id mutant set to 0
 // must not display mutant
 
-2015/06/21-21:03:11 : !!! End of test, script file: tst-main-09.script
+2015/06/21-21:50:47 : !!! End of test, script file: tst-main-09.script
 !!! **************************************************
 
 !!! --------------------
@@ -108,4 +108,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 26  Test commands 28  Test lines 122
      Test ending condition: No failures found.
 
-2015/06/21-21:03:11 : Log end: EVENT
+2015/06/21-21:50:47 : Log end: EVENT

@@ -182,9 +182,9 @@
       EXC_ASSERT( pSymbol != NULL ) ;
    #endif
 
-	  int idMutacao1 = 0 ;
+	  int idMutacao1 = 1 ;
 	  int idMutacao2 = 0 ;
-	  int idMutacao3 = 0 ;
+	  int idMutacao3 = 1 ;
 
 	  bool temp ;
 	  switch ( idMutacao1 )

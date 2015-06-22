@@ -1,6 +1,6 @@
 TALISMAN Log file
 
-2015/06/21-21:03:15 : Log start: Some Log
+2015/06/21-21:50:51 : Log start: Some Log
 ------ Console log line 1.
 >abcdefghi<
 >abcdefghi<
@@ -12,4 +12,4 @@ TALISMAN Log file
 >\x00\x01abcdefgh...<
 >...<
 >...<
-2015/06/21-21:03:15 : Log end: Some Log
+2015/06/21-21:50:51 : Log end: Some Log

@@ -1,0 +1,27 @@
+﻿Tarefa 5
+
+Para o mutante 2 abaixo, o script usando o gerador não apontou erros.
+
+Mutante 2:
+idMutacao1 == 0
+idMutacao2 == 1
+idMutacao3 == 0
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) != NULL )
+	{
+	     return NULL ;
+	}
+
+	pCollisionList->InsertAfter( pSymbol ) ;
+
+	return NULL ;
+
+
+Assim, tst-tsmt-02.script foi alterado de na linha 16 de "+Generate 5 1"
+para "+Generate 10 1".
+
+O problema do script era que ele não possuia ações suficientes a serem geradas.
+Logo, a ação que causava erro nunca era executada. Dessa forma, aumentou-se o número
+de ações a serem geradas pelo teste e ele foi capaz de "matar" o mutante, achando o erro.
+

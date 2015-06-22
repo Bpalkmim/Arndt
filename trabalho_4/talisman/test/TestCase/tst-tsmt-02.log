@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:03:14 : Log start: EVENT
+2015/06/21-21:50:50 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:03:14 : !!! Start test, script file: tst-tsmt-02.script
+2015/06/21-21:50:50 : !!! Start test, script file: tst-tsmt-02.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -12,22 +12,27 @@ TALISMAN Log file
       6 == Reset all spaces
       9 == Preserve the number of allocated spaces
      13 == Generate and test
+>>> 1    Line 22  Incorrect insert, >>?@ABCD< wasn't inserted. 
+>>> 2    Line 22  Incorrect insert, >123456789:;<=>?@AB< wasn't inserted. 
+>>> 3    Line 22  Incorrect insert, >3456789:;<=>?@ABCD< wasn't inserted. 
+>>> 4    Line 22  Incorrect insert, >MNOPQRSTUVWXYZ[\]^_< wasn't inserted. 
+>>> 5    Line 22  Incorrect insert, >3456789:;<=>?@ABCD< wasn't inserted. 
 !!!      Line 22   
 !!!      Line 22  Random test results 
-!!!      Line 22  Hash table size: 32  Number of symbols: 50  Number of actions: 5 
-!!!      Line 22  Number of insertions:    2  Number of failed insertions:    0 
+!!!      Line 22  Hash table size: 32  Number of symbols: 50  Number of actions: 10 
+!!!      Line 22  Number of insertions:    0  Number of failed insertions:    0 
 !!!      Line 22  Number of retrieves:     0  Number of failed retrieves:     1 
-!!!      Line 22  Number of deletes:       0  Number of failed deletes:       2 
+!!!      Line 22  Number of deletes:       0  Number of failed deletes:       4 
 !!!      Line 22  Numero de simbolos por lista de colisao: 
 !!!      Line 22    Lista | Simbolos 
-!!!      Line 22        0 |        1 
+!!!      Line 22        0 |        0 
 !!!      Line 22        1 |        0 
 !!!      Line 22        2 |        0 
 !!!      Line 22        3 |        0 
 !!!      Line 22        4 |        0 
 !!!      Line 22        5 |        0 
 !!!      Line 22        6 |        0 
-!!!      Line 22        7 |        1 
+!!!      Line 22        7 |        0 
 !!!      Line 22        8 |        0 
 !!!      Line 22        9 |        0 
 !!!      Line 22       10 |        0 
@@ -43,14 +48,15 @@ TALISMAN Log file
 !!!      Line 22       20 |        0 
 !!!      Line 22       21 |        0 
 !!!      Line 22       22 |        0 
+>>> 6    Line 22  Incorrect random test return  Is false, should be true.
      24 == Verify leakage
 
-2015/06/21-21:03:14 : !!! End of test, script file: tst-tsmt-02.script
+2015/06/21-21:50:50 : !!! End of test, script file: tst-tsmt-02.script
 !!! **************************************************
 
 !!! --------------------
 !!!  Test ended
      Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
-     Test ending condition: No failures found.
+     Test ending condition: >>> 6 <<< failures found.
 
-2015/06/21-21:03:14 : Log end: EVENT
+2015/06/21-21:50:50 : Log end: EVENT

@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:03:13 : Log start: EVENT
+2015/06/21-21:50:49 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:03:13 : !!! Start test, script file: tst-bcd-01.script
+2015/06/21-21:50:49 : !!! Start test, script file: tst-bcd-01.script
 
 // Script:    Tst-bcd-01.script
 // Author:    Arndt von Staa
@@ -455,7 +455,7 @@ TALISMAN Log file
 !!!      Line 1102      Size A: 5  +=  Size B: 5  Overflow: 1  Freq:  3018
    1104 == Verify if the dynamic memory has been reset.
 
-2015/06/21-21:03:14 : !!! End of test, script file: tst-bcd-01.script
+2015/06/21-21:50:50 : !!! End of test, script file: tst-bcd-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -463,4 +463,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 191  Test commands 686  Test lines 1108
      Test ending condition: No failures found.
 
-2015/06/21-21:03:14 : Log end: EVENT
+2015/06/21-21:50:50 : Log end: EVENT

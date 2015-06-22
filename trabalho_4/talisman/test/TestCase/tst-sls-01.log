@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:03:14 : Log start: EVENT
+2015/06/21-21:50:50 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:03:14 : !!! Start test, script file: tst-sls-01.script
+2015/06/21-21:50:50 : !!! Start test, script file: tst-sls-01.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -100,7 +100,7 @@ TALISMAN Log file
     308 == Create dummy list, test tester destruction, may not leave allocated dataspaces
 // end test
 
-2015/06/21-21:03:14 : !!! End of test, script file: tst-sls-01.script
+2015/06/21-21:50:50 : !!! End of test, script file: tst-sls-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -109,4 +109,4 @@ TALISMAN Log file
      Test ending condition: No failures found.
 
 !!!  Deleted element: 1
-2015/06/21-21:03:14 : Log end: EVENT
+2015/06/21-21:50:50 : Log end: EVENT

@@ -70,4 +70,10 @@ Preparei minha máquina para fazer o trabalho.
 2h
 Renan
 Medir eficácia do script
-TODO
+Escolhi os operadores de mutação, criei os mutantes e rodei os testes para eles.
+
+21/06
+2h
+Renan
+Medir eficácia do script
+Verifiquei e ajustei o script usando o gerador para que todos os mutantes fossem "mortos".
