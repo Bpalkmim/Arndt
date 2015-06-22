@@ -739,15 +739,15 @@ LES - Laboratorio de Engenharia de Software
 
 >>> 13 Allocated data spaces remain: 9, verify memory leakage.
 
->>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 001E8BE0
->>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 001E8BA0
->>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 001E8B20
->>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 001E8AE8
->>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 001E8AA8
->>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 001E8A30
->>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 001E89B8
->>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 001E8978
->>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 001E8900
+>>> Log closed: ---DataSpace  Id:    72  Size:    18  Line:   135  File:      tst_dsp.cpp   Addr: 006BB498
+>>> Log closed: ---DataSpace  Id:    71  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 006C4588
+>>> Log closed: ---DataSpace  Id:    69  Size:     8  Line:   135  File:      tst_dsp.cpp   Addr: 006BB458
+>>> Log closed: ---DataSpace  Id:    68  Size:     4  Line:   135  File:      tst_dsp.cpp   Addr: 006C3BE0
+>>> Log closed: ---DataSpace  Id:    67  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 006BB418
+>>> Log closed: ---DataSpace  Id:    65  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 006BB3D8
+>>> Log closed: ---DataSpace  Id:    63  Size:     1  Line:   135  File:      tst_dsp.cpp   Addr: 006BB360
+>>> Log closed: ---DataSpace  Id:    62  Size:     7  Line:   135  File:      tst_dsp.cpp   Addr: 006BB320
+>>> Log closed: ---DataSpace  Id:    60  Size:     6  Line:   135  File:      tst_dsp.cpp   Addr: 006B5FD8
 >>> Log closed: 
 !!! Spaces still allocated:          9
 >>> Log closed: 
@@ -872,14 +872,14 @@ LES - Laboratorio de Engenharia de Software
 !!! ------------------------------
 
 
-!!! Test statistics:   Test files 1  Test cases 17  Test commands 35  Test lines 107
+!!! Test statistics:   Test files 1  Test cases 17  Test commands 66  Test lines 107
 
-    Test ending condition: >>> 40 <<< failures found.
+    Test ending condition: No failures found.
 
 
 !!! ------------------------------
 
->>> TEST found 40 problems.
+!!! TEST OK.
 
 !!! ------------------------------
 
@@ -898,12 +898,12 @@ LES - Laboratorio de Engenharia de Software
 
 !!! Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
 
-    Test ending condition: >>> 6 <<< failures found.
+    Test ending condition: No failures found.
 
 
 !!! ------------------------------
 
->>> TEST found 6 problems.
+!!! TEST OK.
 
 !!! ------------------------------
 
@@ -1063,19 +1063,19 @@ LES - Laboratorio de Engenharia de Software
 !!! Do not count passages.
 !!! ------------------------------
 
-2015/06/21-21:50:51 : Log end: ???
+2015/06/22-16:08:38 : Log end: ???
 
-2015/06/21-21:50:51 : Log start: Error log
+2015/06/22-16:08:38 : Log start: Error log
 ?????? Error log line sent to console.
-2015/06/21-21:50:51 : Log end: Error log
+2015/06/22-16:08:38 : Log end: Error log
 
-2015/06/21-21:50:51 : Log start: Console log
+2015/06/22-16:08:38 : Log start: Console log
 ------ Console log line 1.
 ------ Console log line 2.
 ------ Console log line 3.
-2015/06/21-21:50:51 : Log end: Console log
+2015/06/22-16:08:38 : Log end: Console log
 
-2015/06/21-21:50:51 : Log start: Console log
+2015/06/22-16:08:38 : Log start: Console log
 ------ Console log line 1.
 >abcdefghi<
 >abcdefghi<
@@ -1087,7 +1087,7 @@ LES - Laboratorio de Engenharia de Software
 >\x00\x01abcdefgh...<
 >...<
 >...<
-2015/06/21-21:50:51 : Log end: Console log
+2015/06/22-16:08:38 : Log end: Console log
 
 
 !!! Test statistics:   Test files 1  Test cases 22  Test commands 188  Test lines 250

@@ -13,7 +13,7 @@
 == Generate and test 
 =GenerateTest    .true
 +Control         32  50   4  0
-+Generate        30   1
++Generate        300   1
 +ActionDistrib   30  40  30 
 +SizeDistrib     25   7 
 +SizeDistrib     25  17

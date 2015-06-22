@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:50 : Log start: EVENT
+2015/06/22-16:06:53 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:50 : !!! Start test, script file: tst-tsmt-01.script
+2015/06/22-16:06:53 : !!! Start test, script file: tst-tsmt-01.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -17,64 +17,26 @@ TALISMAN Log file
 >>> 1    Line 26  Incorrect symbol search return  Is false, should be true.
 <<< 0    Line 27  Expected failure or error has been recovered. 
      29 == Test insert string
->>> 1    Line 30  Incorrect symbol search return  Is true, should be false.
->>> 2    Line 31  No recovery provided. Command ignored:  =insertsymbol     2  "bbbb"   0
->>> 3    Line 32  Command ignored:  =insertsymbol     2  "cccccc" 0
->>> 4    Line 33  Command ignored:  =searchsymbol     2  "aa"     1
->>> 5    Line 34  Command ignored:  =searchsymbol     2  "bbbb"   1
->>> 6    Line 35  Command ignored:  =searchsymbol     2  "cccccc" 1
      37 == Test delete symbol
->>> 7    Line 38  Incorrect symbol delete return  Is false, should be true.
->>> 8    Line 39  No recovery provided. Command ignored:  =deletesymbol     2  "aa"     0
->>> 9    Line 40  Command ignored:  =deletesymbol     2  "wwww"   0
      42 == Test mix of insert and delete
->>> 10   Line 44  Incorrect symbol search return  Is true, should be false.
->>> 11   Line 45  No recovery provided. Command ignored:  =searchsymbol     2  "23456"  0
->>> 12   Line 46  Command ignored:  =insertsymbol     2  "12345"  1
->>> 13   Line 47  Command ignored:  =searchsymbol     2  "12345"  1
->>> 14   Line 48  Command ignored:  =insertsymbol     2  "12345"  1
->>> 15   Line 49  Command ignored:  =deletesymbol     2  "12345"  1
->>> 16   Line 50  Command ignored:  =insertsymbol     2  "12345"  0
      52 == Test insert string in another table
->>> 17   Line 53  Incorrect symbol search return  Is true, should be false.
->>> 18   Line 54  No recovery provided. Command ignored:  =insertsymbol     0  "bbbbb"   0
->>> 19   Line 55  Command ignored:  =insertsymbol     0  "ccccccc" 0
->>> 20   Line 56  Command ignored:  =searchsymbol     0  "aaa"     1
->>> 21   Line 57  Command ignored:  =searchsymbol     0  "bbbbb"   1
->>> 22   Line 58  Command ignored:  =searchsymbol     0  "ccccccc" 1
      60 == Verify structure of table with no delete performed
      63 == Verify structure of table with delete performed
      66 == Verify sensibility with respect to case and diacritic characters
->>> 23   Line 68  Incorrect symbol search return  Is false, should be true.
->>> 24   Line 69  No recovery provided. Command ignored:  =searchsymbol     0  "ccçcccc" 0
->>> 25   Line 70  Command ignored:  =searchsymbol     0  "bBbbb"   1
->>> 26   Line 71  Command ignored:  =Recover
+>>> 1    Line 70  Incorrect symbol search return  Is false, should be true.
+<<< 0    Line 71  Expected failure or error has been recovered. 
      73 == Verify correct comparison at the extremities
->>> 27   Line 74  Incorrect symbol search return  Is false, should be true.
->>> 28   Line 75  No recovery provided. Command ignored:  =searchsymbol     0  "xbbbb"   0
->>> 29   Line 76  Command ignored:  =searchsymbol     0  "bbbbx"   0
      78 == Test random
->>> 30   Line 84  Incorrect symbol search return  Is true, should be false.
->>> 31   Line 85  No recovery provided. Command ignored:  =searchsymbol     5  "23456789"       0
->>> 32   Line 86  Command ignored:  =searchsymbol     5  "%&\'()*+,-./01" 0
->>> 33   Line 87  Command ignored:  =insertsymbol     5  "?"              0
->>> 34   Line 88  Command ignored:  =insertsymbol     5  "!\"#$"          0
->>> 35   Line 89  Command ignored:  =insertsymbol     5  "!\"#$"          1
->>> 36   Line 90  Command ignored:  =searchsymbol     5  "%&\'()*+,-./01" 0
->>> 37   Line 91  Command ignored:  =searchsymbol     5  "hijklmnopqr"    1
      93 == Destruct these tables
      98 == Verify leakage
     102 == Test table tester destruction, must not leave allocated spaces
->>> 38   Line 104  Incorrect symbol search return  Is true, should be false.
->>> 39   Line 105  No recovery provided. Command ignored:  =insertsymbol     1  "bbbbb"   0
->>> 40   Line 106  Command ignored:  =insertsymbol     1  "ccccccc" 0
 
-2015/06/21-21:50:50 : !!! End of test, script file: tst-tsmt-01.script
+2015/06/22-16:06:53 : !!! End of test, script file: tst-tsmt-01.script
 !!! **************************************************
 
 !!! --------------------
 !!!  Test ended
-     Test statistics:   Test files 1  Test cases 17  Test commands 35  Test lines 107
-     Test ending condition: >>> 40 <<< failures found.
+     Test statistics:   Test files 1  Test cases 17  Test commands 66  Test lines 107
+     Test ending condition: No failures found.
 
-2015/06/21-21:50:50 : Log end: EVENT
+2015/06/22-16:06:53 : Log end: EVENT

@@ -1,3 +1,5 @@
 Tarefa 4
 
-Aumentar o número de ações para o valor xxx (pelos motivos yyy) foi extremamente simples pois zzz.
+Aumentar o número de ações para o valor 300 (pois assim há maior chance de haver alguma exclusão de elemento da tabela que ocorra com sucesso, já que são gerados aleatoriamente, e é difícil que o elemento a ser deletado seja um dos que tenha sido inserido) foi extremamente simples pois bastou que um número fosse alterado no script de testes, uma vez que o framework está adaptado para mudanças do gênero e torna-as simples.
+
+Quando o número de ações é pequeno, a chance de deletar com sucesso é baixa, e acaba não sendo testada.

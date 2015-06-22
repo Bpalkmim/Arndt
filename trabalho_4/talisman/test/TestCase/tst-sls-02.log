@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:50 : Log start: EVENT
+2015/06/22-16:06:52 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:50 : !!! Start test, script file: tst-sls-02.script
+2015/06/22-16:06:52 : !!! Start test, script file: tst-sls-02.script
 
 // Script:    Tst-sls-02.script
 // Author:    Arndt von Staa
@@ -34,38 +34,38 @@ TALISMAN Log file
 !!!  Deleted element: 7777777
 !!!  Deleted element: 88888888
      58 == Build list with 6 elements using insert after
----DataSpace  Id:   201  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BD040
----DataSpace  Id:   200  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BCD30
----DataSpace  Id:   199  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BCFF8
----DataSpace  Id:   198  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BCC30
----DataSpace  Id:   197  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BCFB0
----DataSpace  Id:   196  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BCB30
----DataSpace  Id:   195  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BCF68
----DataSpace  Id:   194  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BCA30
----DataSpace  Id:   193  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BCF20
----DataSpace  Id:   192  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BC930
----DataSpace  Id:   191  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006BCED8
----DataSpace  Id:   190  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 006BC830
----DataSpace  Id:   189  Size:    20  Line:   491  File:      tst_sls.cpp   Addr: 006BCE90
----DataSpace  Id:    52  Size:    18  Line:   675  File:       string.cpp   Addr: 006BC7E8
----DataSpace  Id:    51  Size:    12  Line:    74  File:       msgstr.cpp   Addr: 006BC7A8
----DataSpace  Id:    50  Size:     8  Line:  1144  File:     gnrctest.cpp   Addr: 006BC768
----DataSpace  Id:    49  Size:    18  Line:   675  File:       string.cpp   Addr: 006BC720
----DataSpace  Id:    48  Size:    12  Line:   391  File:      sioctrl.cpp   Addr: 006B25F0
----DataSpace  Id:    47  Size:    88  Line:  1142  File:     gnrctest.cpp   Addr: 006BC690
----DataSpace  Id:    46  Size:    18  Line:   739  File:       string.cpp   Addr: 006B8928
----DataSpace  Id:    39  Size:  2603  Line:  1105  File:     gnrctest.cpp   Addr: 006B7E88
----DataSpace  Id:    38  Size:  5004  Line:   122  File:      symbtab.cpp   Addr: 006B6AC8
----DataSpace  Id:    37  Size:    20  Line:  1103  File:     gnrctest.cpp   Addr: 006B5A78
----DataSpace  Id:    24  Size:    15  Line:   739  File:       string.cpp   Addr: 006B26B8
----DataSpace  Id:    17  Size:  2583  Line:   171  File:       logger.cpp   Addr: 006B4FE8
----DataSpace  Id:    15  Size:     6  Line:   675  File:       string.cpp   Addr: 006B2678
----DataSpace  Id:    11  Size:    20  Line:   297  File:       global.cpp   Addr: 006B2630
----DataSpace  Id:     8  Size:    17  Line:   675  File:       string.cpp   Addr: 006B4FA0
----DataSpace  Id:     4  Size:   136  Line:   129  File:       global.cpp   Addr: 006B4EE0
----DataSpace  Id:     3  Size:  1000  Line:   270  File:       global.cpp   Addr: 006B4AC0
----DataSpace  Id:     2  Size:    12  Line:   220  File:     gnrctest.cpp   Addr: 006B25B0
----DataSpace  Id:     1  Size:   887  Line:   357  File:         main.cpp   Addr: 006B2200
+---DataSpace  Id:   201  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006054A0
+---DataSpace  Id:   200  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00605BE8
+---DataSpace  Id:   199  Size:    16  Line:   690  File:     simplist.cpp   Addr: 006051D0
+---DataSpace  Id:   198  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 00605AE8
+---DataSpace  Id:   197  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00604F90
+---DataSpace  Id:   196  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 005F2B90
+---DataSpace  Id:   195  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00605218
+---DataSpace  Id:   194  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 005F2A90
+---DataSpace  Id:   193  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00605410
+---DataSpace  Id:   192  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 005F2990
+---DataSpace  Id:   191  Size:    16  Line:   690  File:     simplist.cpp   Addr: 00605188
+---DataSpace  Id:   190  Size:   204  Line:   432  File:      tst_sls.cpp   Addr: 005FB490
+---DataSpace  Id:   189  Size:    20  Line:   491  File:      tst_sls.cpp   Addr: 006050F8
+---DataSpace  Id:    52  Size:    18  Line:   675  File:       string.cpp   Addr: 005F5F90
+---DataSpace  Id:    51  Size:    12  Line:    74  File:       msgstr.cpp   Addr: 005F5F50
+---DataSpace  Id:    50  Size:     8  Line:  1144  File:     gnrctest.cpp   Addr: 005F9D78
+---DataSpace  Id:    49  Size:    18  Line:   675  File:       string.cpp   Addr: 005F0530
+---DataSpace  Id:    48  Size:    12  Line:   391  File:      sioctrl.cpp   Addr: 005F9CB0
+---DataSpace  Id:    47  Size:    88  Line:  1142  File:     gnrctest.cpp   Addr: 005F04A0
+---DataSpace  Id:    46  Size:    18  Line:   739  File:       string.cpp   Addr: 005F5F08
+---DataSpace  Id:    39  Size:  2603  Line:  1105  File:     gnrctest.cpp   Addr: 005FAA30
+---DataSpace  Id:    38  Size:  5004  Line:   122  File:      symbtab.cpp   Addr: 005F15D0
+---DataSpace  Id:    37  Size:    20  Line:  1103  File:     gnrctest.cpp   Addr: 005F5EC0
+---DataSpace  Id:    24  Size:    15  Line:   739  File:       string.cpp   Addr: 005F5E78
+---DataSpace  Id:    17  Size:  2583  Line:   171  File:       logger.cpp   Addr: 005F9FE0
+---DataSpace  Id:    15  Size:     6  Line:   675  File:       string.cpp   Addr: 005F9D38
+---DataSpace  Id:    11  Size:    20  Line:   297  File:       global.cpp   Addr: 005F9CF0
+---DataSpace  Id:     8  Size:    17  Line:   675  File:       string.cpp   Addr: 005F9C68
+---DataSpace  Id:     4  Size:   136  Line:   129  File:       global.cpp   Addr: 005F9BA8
+---DataSpace  Id:     3  Size:  1000  Line:   270  File:       global.cpp   Addr: 005FF780
+---DataSpace  Id:     2  Size:    12  Line:   220  File:     gnrctest.cpp   Addr: 005FCF70
+---DataSpace  Id:     1  Size:   887  Line:   357  File:         main.cpp   Addr: 005F97F8
 
 !!! Spaces still allocated:         32
 
@@ -85,7 +85,7 @@ TALISMAN Log file
 !!!  Deleted element: 666666
      75 == Verify leakage
 
-2015/06/21-21:50:50 : !!! End of test, script file: tst-sls-02.script
+2015/06/22-16:06:52 : !!! End of test, script file: tst-sls-02.script
 !!! **************************************************
 
 !!! --------------------
@@ -93,4 +93,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 11  Test commands 51  Test lines 77
      Test ending condition: No failures found.
 
-2015/06/21-21:50:50 : Log end: EVENT
+2015/06/22-16:06:52 : Log end: EVENT

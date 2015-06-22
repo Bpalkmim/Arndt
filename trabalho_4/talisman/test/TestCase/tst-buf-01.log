@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:51 : Log start: EVENT
+2015/06/22-16:11:05 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:51 : !!! Start test, script file: tst-buf-01.script
+2015/06/22-16:11:05 : !!! Start test, script file: tst-buf-01.script
 
 // Script:    Tst-str-01.script
 // Author:    Arndt von Staa
@@ -29,7 +29,7 @@ TALISMAN Log file
      78 == Create a buffer on the stack
      81 == verify memory leak
 
-2015/06/21-21:50:51 : !!! End of test, script file: tst-buf-01.script
+2015/06/22-16:11:05 : !!! End of test, script file: tst-buf-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -37,4 +37,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 19  Test commands 39  Test lines 84
      Test ending condition: No failures found.
 
-2015/06/21-21:50:51 : Log end: EVENT
+2015/06/22-16:11:05 : Log end: EVENT

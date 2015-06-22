@@ -31,7 +31,7 @@ symbtab.cpp
 time.cpp
 tracer.cpp
 verifier.cpp
-Microsoft (R) Incremental Linker Version 10.00.30319.01
+Microsoft (R) Incremental Linker Version 12.00.31101.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /OUT:TalismanTestDll.dll 
@@ -45,8 +45,8 @@ msgbcd.obj msgbin.obj msgstr.obj msgtime.obj randgen.obj
 readtest.obj simplist.obj sioctrl.obj sls_elem.obj string.obj 
 symbtab.obj time.obj tracer.obj verifier.obj 
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall BUF_Buffer::`scalar deleting destructor'(unsigned int)'; image may not run correctly
-TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall CFGE_LineListElem::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall CFG_ConfigurationList::`scalar deleting destructor'(unsigned int)'; image may not run correctly
+TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall CFGE_LineListElem::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall CNT_ListElement::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall CNT_Counters::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall ENV_Environment::`scalar deleting destructor'(unsigned int)'; image may not run correctly
@@ -72,7 +72,7 @@ TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: vi
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SIO_SequentialIO::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SLSE_ListElementValue::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall STR_String::`scalar deleting destructor'(unsigned int)'; image may not run correctly
+TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SLS_SimpleList::`vector deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SMTE_SymbolTableElement::`scalar deleting destructor'(unsigned int)'; image may not run correctly
 TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SMT_SymbolTable::`scalar deleting destructor'(unsigned int)'; image may not run correctly
-TalismanTestDll.def : warning LNK4102: export of deleting destructor 'public: virtual void * __thiscall SLS_SimpleList::`vector deleting destructor'(unsigned int)'; image may not run correctly
    Creating library TalismanTestDll.lib and object TalismanTestDll.exp

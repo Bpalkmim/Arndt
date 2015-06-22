@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:47 : Log start: EVENT
+2015/06/22-16:06:47 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:47 : !!! Start test, script file: tst-main-12.script
+2015/06/22-16:06:47 : !!! Start test, script file: tst-main-12.script
 
 // Script:    Tst-main-12.script
 // Author:    Arndt von Staa
@@ -67,7 +67,7 @@ TALISMAN Log file
 >>> ERROR:   Could not open >>> Test script reader file: FileNameError.script
 >>> 1    Line 36  Test has been canceled. 
 
-2015/06/21-21:50:47 : !!! End of test, script file: tst-main-12.script
+2015/06/22-16:06:47 : !!! End of test, script file: tst-main-12.script
 !!! **************************************************
 
 !!! --------------------
@@ -75,4 +75,4 @@ TALISMAN Log file
      Test statistics:   Test files 3  Test cases 11  Test commands 28  Test lines 36
      Test ending condition: >>> 1 <<< failures found.
 
-2015/06/21-21:50:47 : Log end: EVENT
+2015/06/22-16:06:47 : Log end: EVENT

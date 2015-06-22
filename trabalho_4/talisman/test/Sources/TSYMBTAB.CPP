@@ -11,7 +11,7 @@
 //Repository file name: Z:\TALISMAN\TEST\BSW\UTILIT.BSW
 //
 //Owning organization:    LES/DI/PUC-Rio
-//Project:                Talisman
+//Project:                Talismanid
 //List of authors
 //   Id      Name
 //   avs Arndt von Staa
@@ -182,9 +182,9 @@
       EXC_ASSERT( pSymbol != NULL ) ;
    #endif
 
-	  int idMutacao1 = 1 ;
+	  int idMutacao1 = 0 ;
 	  int idMutacao2 = 0 ;
-	  int idMutacao3 = 1 ;
+	  int idMutacao3 = 0 ;
 
 	  bool temp ;
 	  switch ( idMutacao1 )

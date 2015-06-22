@@ -379,7 +379,7 @@
 	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\verifier.cpp >> ..\sources\TalismanTestDll.err
 	cd ..\Obj
 	DUMPBIN  /SYMBOLS   *.obj  /OUT:dllsymbols.txt
-Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Microsoft (R) COFF/PE Dumper Version 12.00.31101.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 	..\..\tools\programs\grdllexp  /edllsymbols.txt /stalismantestdll

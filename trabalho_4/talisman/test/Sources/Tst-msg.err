@@ -10,7 +10,7 @@ TALISMAN tool: GeraDefS - Generate access key table for the memory resident stri
 
 tst_msg.cpp
 main.cpp
-Microsoft (R) Incremental Linker Version 10.00.30319.01
+Microsoft (R) Incremental Linker Version 12.00.31101.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /OUT:Tst-msg.EXE 

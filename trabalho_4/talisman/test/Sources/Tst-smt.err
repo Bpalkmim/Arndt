@@ -5,7 +5,7 @@
 tst_smt.cpp
 ..\sources\tst_smt.cpp(801) : warning C4189: 'pRetSymbol' : local variable is initialized but not referenced
 main.cpp
-Microsoft (R) Incremental Linker Version 10.00.30319.01
+Microsoft (R) Incremental Linker Version 12.00.31101.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /OUT:Tst-smt.EXE 

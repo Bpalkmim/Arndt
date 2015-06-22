@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:48 : Log start: EVENT
+2015/06/22-16:06:49 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:48 : !!! Start test, script file: tst-tim-01.script
+2015/06/22-16:06:49 : !!! Start test, script file: tst-tim-01.script
 
 // Script:    Tst-cfg-01.script
 // Author:    Arndt von Staa
@@ -13,12 +13,12 @@ TALISMAN Log file
       9 == Preserve the number of allocated spaces
      12 == Initialize time module
      15 == Get start up time
-!!!      Line 16  Start up time is:  2015/06/21-21:50:48
+!!!      Line 16  Start up time is:  2015/06/22-16:06:49
      18 == Wait some time
      21 == Initialize and display, should be different
-!!!      Line 24  Start up time is:  2015/06/21-21:50:49
+!!!      Line 24  Start up time is:  2015/06/22-16:06:49
      26 == Get current time
-!!!      Line 27  Current time is:  2015/06/21-21:50:49
+!!!      Line 27  Current time is:  2015/06/22-16:06:49
      29 == Save current clock
      32 == Get elapsed time, current time has not been changed
      35 == Display initialized - wrong - time
@@ -47,7 +47,7 @@ TALISMAN Log file
 !!!      Line 99  Elapsed time is:  47:59:59.998
     101 == Verify leakage
 
-2015/06/21-21:50:49 : !!! End of test, script file: tst-tim-01.script
+2015/06/22-16:06:49 : !!! End of test, script file: tst-tim-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -55,4 +55,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 22  Test commands 55  Test lines 105
      Test ending condition: No failures found.
 
-2015/06/21-21:50:49 : Log end: EVENT
+2015/06/22-16:06:49 : Log end: EVENT

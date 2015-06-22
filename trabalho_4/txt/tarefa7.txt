@@ -1,5 +1,7 @@
 Tarefa 7
 
+Foi criado o script de testes tst-tsmt-03.script para essa tarefa.
+
 - Com 31:
 
 xxx

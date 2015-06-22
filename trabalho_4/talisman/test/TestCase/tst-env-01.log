@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/21-21:50:51 : Log start: EVENT
+2015/06/22-16:10:31 : Log start: EVENT
 
 !!! **************************************************
-2015/06/21-21:50:51 : !!! Start test, script file: tst-env-01.script
+2015/06/22-16:10:31 : !!! Start test, script file: tst-env-01.script
 
 // Script:    Tst-env-01.script
 // Author:    Arndt von Staa
@@ -53,7 +53,7 @@ TALISMAN Log file
      87 == Test getting second parameter
      90 == Verify leakage
 
-2015/06/21-21:50:51 : !!! End of test, script file: tst-env-01.script
+2015/06/22-16:10:31 : !!! End of test, script file: tst-env-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -61,4 +61,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 23  Test commands 30  Test lines 93
      Test ending condition: No failures found.
 
-2015/06/21-21:50:51 : Log end: EVENT
+2015/06/22-16:10:31 : Log end: EVENT
