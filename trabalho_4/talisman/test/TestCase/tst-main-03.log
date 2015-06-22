@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:04 : Log start: EVENT
+2015/06/21-21:03:11 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:04 : !!! Start test, script file: tst-main-03.script
+2015/06/21-21:03:11 : !!! Start test, script file: tst-main-03.script
 
 // Script:    Tst-main-02.script
 // Author:    Arndt von Staa
@@ -18,7 +18,7 @@ TALISMAN Log file
 //
 >>> 1    Line 21  Last test case is empty. 
 
-2015/06/20-11:55:04 : !!! End of test, script file: tst-main-03.script
+2015/06/21-21:03:11 : !!! End of test, script file: tst-main-03.script
 !!! **************************************************
 
 !!! --------------------
@@ -26,4 +26,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 1  Test commands 1  Test lines 21
      Test ending condition: >>> 1 <<< failures found.
 
-2015/06/20-11:55:04 : Log end: EVENT
+2015/06/21-21:03:11 : Log end: EVENT

@@ -1,4 +1,6 @@
-tarefa 1
+﻿tarefa 1
 
-Para realizar a tarefa 1, foram criados os arquivos fontes TSYMBTAB.HPP, TSYMBTAB.CCP, TST_TSMT.HPP e TST_TSMT.CPP e os nomes das classes SMT_SymbolTable e SMTE_SymbolTableElement foram alterados para não gerar conflitos com as classes já existentes.
-Além destes, foi criado o TST_TSMT.comp, alterando as referências para os novos tsymtab e tsmt. Foi também criada uma entrada para o tst_tsmt no TestFramework.suite e foram criados os scripts tst-tsmt-01.script e tst-tsmt-02.script.
+Para realizar a tarefa 1, foram criados os arquivos fontes TSYMBTAB.HPP, TSYMBTAB.CCP, TST_TSMT.HPP e TST_TSMT.CPP e os nomes das classes SMT_SymbolTable e SMTE_SymbolTableElement 
+foram alterados para não gerar conflitos com as classes já existentes.
+Além destes, foi criado o TST_TSMT.comp, alterando as referências para os novos tsymtab e tsmt. Foi também criada uma entrada para o tst_tsmt no TestFramework.suite e foram criados
+ os scripts tst-tsmt-01.script e tst-tsmt-02.script.

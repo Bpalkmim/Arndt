@@ -1843,10 +1843,10 @@ Estatísticas do construto
       tst_tsmt.cpp
 
    Estatísticas do arquivo: tsymbtab.cpp
-      Total linhas:             330
-      Linhas de código:         147
-      Linhas de comentário:      88
-      Linhas em branco:          87
+      Total linhas:             363
+      Linhas de código:         174
+      Linhas de comentário:      91
+      Linhas em branco:          90
    Arquivos de inclusão de que necessita
       bcdarit.hpp
       dynspac.hpp
@@ -2032,18 +2032,18 @@ Totais por tipo de arquivo
          Arquivos deste tipo:         20
 
   Tipo: cpp      Path: ..\sources
-         Total linhas do tipo:     16679
-         Linhas de código:          9024
-         Linhas de comentário:      3260
-         Linhas em branco:          4375
+         Total linhas do tipo:     16712
+         Linhas de código:          9051
+         Linhas de comentário:      3263
+         Linhas em branco:          4378
          Arquivos deste tipo:         29
 
 Totais para todo o construto Tst-tsmt
 
-   Total linhas:             28986
-   Linhas de código:         10769
-   Linhas de comentário:      9625
-   Linhas em branco:          6340
+   Total linhas:             29019
+   Linhas de código:         10796
+   Linhas de comentário:      9628
+   Linhas em branco:          6343
    Arquivos processados:        83
 
 >>> Ocorreram erros ao gerar.

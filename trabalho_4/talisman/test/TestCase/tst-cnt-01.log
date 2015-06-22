@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:06 : Log start: EVENT
+2015/06/21-21:03:15 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:06 : !!! Start test, script file: tst-cnt-01.script
+2015/06/21-21:03:15 : !!! Start test, script file: tst-cnt-01.script
 
 // Script:    Tst-cnt-01.script
 // Author:    Arndt von Staa
@@ -47,7 +47,7 @@ TALISMAN Log file
     122 == End measuring time
 !!!      Line 123  ========== Clock 1 elapsed time: 0.001 
 
-2015/06/20-11:55:06 : !!! End of test, script file: tst-cnt-01.script
+2015/06/21-21:03:15 : !!! End of test, script file: tst-cnt-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -55,4 +55,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 24  Test commands 69  Test lines 123
      Test ending condition: >>> 6 <<< failures found.
 
-2015/06/20-11:55:06 : Log end: EVENT
+2015/06/21-21:03:15 : Log end: EVENT

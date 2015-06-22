@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:05 : Log start: EVENT
+2015/06/21-21:03:13 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:05 : !!! Start test, script file: tst-str-03.script
+2015/06/21-21:03:13 : !!! Start test, script file: tst-str-03.script
 
 // Script:    Tst-str-01.script
 // Author:    Arndt von Staa
@@ -123,7 +123,7 @@ TALISMAN Log file
     792 == Compare global strings with different prefix sizes
     797 == verify memory leak
 
-2015/06/20-11:55:05 : !!! End of test, script file: tst-str-03.script
+2015/06/21-21:03:13 : !!! End of test, script file: tst-str-03.script
 !!! **************************************************
 
 !!! --------------------
@@ -131,4 +131,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 113  Test commands 566  Test lines 800
      Test ending condition: No failures found.
 
-2015/06/20-11:55:05 : Log end: EVENT
+2015/06/21-21:03:13 : Log end: EVENT

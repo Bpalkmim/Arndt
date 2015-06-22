@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:06 : Log start: EVENT
+2015/06/21-21:03:15 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:06 : !!! Start test, script file: tst-cnt-01.script
+2015/06/21-21:03:15 : !!! Start test, script file: tst-cnt-01.script
 
 // Script:    Tst-cnt-01.script
 // Author:    Arndt von Staa
@@ -81,7 +81,7 @@ ccc 0    Line 116  Counter value:    -1  name: zpto
     122 == End measuring time
 !!!      Line 123  ========== Clock 1 elapsed time: 0.001 
 
-2015/06/20-11:55:06 : !!! End of test, script file: tst-cnt-01.script
+2015/06/21-21:03:15 : !!! End of test, script file: tst-cnt-01.script
 !!! **************************************************
 !!! 0    Line 123   Verifying counters at end of test run 
 ccc 0    Line 123  Zero count in counter: a b c d
@@ -93,4 +93,4 @@ ccc 0    Line 123  Zero count in counter: xpto
      Test statistics:   Test files 1  Test cases 24  Test commands 66  Test lines 123
      Test ending condition: No failures found.
 
-2015/06/20-11:55:06 : Log end: EVENT
+2015/06/21-21:03:15 : Log end: EVENT

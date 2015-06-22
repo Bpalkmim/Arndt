@@ -181,13 +181,46 @@
    #ifdef _DEBUG
       EXC_ASSERT( pSymbol != NULL ) ;
    #endif
-      if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
-                         pSymbol->GetSymbolString( )->GetString( )) != NULL )
+
+	  int idMutacao1 = 0 ;
+	  int idMutacao2 = 0 ;
+	  int idMutacao3 = 0 ;
+
+	  bool temp ;
+	  switch ( idMutacao1 )
+	  {
+	  case 1:
+		  temp = ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+							     pSymbol->GetSymbolString( )->GetString( )) == NULL ) ;
+		  /* mutação: "!=" :: "==" */
+		  break ;
+	  default:
+		  temp = ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+							     pSymbol->GetSymbolString( )->GetString( )) != NULL ) ;
+		  break ;
+	  }
+
+      if ( temp )
       {
-         return pSymbol ;
+		  switch ( idMutacao2 )
+		  {
+		  case 1:
+			  return NULL ;
+			  /* mutação: "pSymbol" :: "NULL" */
+		  default:
+			  return pSymbol ;
+		  }
       } /* if */
 
-      pCollisionList->InsertAfter( pSymbol ) ;
+	  switch ( idMutacao3 )
+	  {
+	  case 1:
+		  /* mutação: "pCollisionList->InsertAfter( pSymbol ) ;" :: "" */
+		  break ;
+	  default:
+		  pCollisionList->InsertAfter( pSymbol ) ;
+		  break ;
+	  }
 
       return NULL ;
 

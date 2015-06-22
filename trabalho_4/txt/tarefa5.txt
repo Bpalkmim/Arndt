@@ -1,0 +1,85 @@
+﻿Tarefa 5
+
+Foram escolhidos como operadores de mutação para o método InsertSymbol:
+- Troca de operador relacional (trocar o "!=" da linha 185 por "==")
+- Eliminação de comando (remover "pCollisionList->InsertAfter( pSymbol ) ;" da linha 190)
+- Troca do valor de retorno (trocar pSymbol por NULL na linha 187)
+
+
+Mutante 1:
+idMutacao1 == 1
+idMutacao2 == 0
+idMutacao3 == 0
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) == NULL )
+	{
+	     return pSymbol ;
+	}
+
+	pCollisionList->InsertAfter( pSymbol ) ;
+
+	return NULL ;
+
+
+Mutante 2:
+idMutacao1 == 0
+idMutacao2 == 1
+idMutacao3 == 0
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) != NULL )
+	{
+	     return NULL ;
+	}
+
+	pCollisionList->InsertAfter( pSymbol ) ;
+
+	return NULL ;
+
+
+Mutante 3:
+idMutacao1 == 1
+idMutacao2 == 1
+idMutacao3 == 0
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) == NULL )
+	{
+	     return NULL;
+	}
+
+	pCollisionList->InsertAfter( pSymbol ) ;
+
+	return NULL ;
+
+
+Mutante 4:
+idMutacao1 == 0
+idMutacao2 == 0
+idMutacao3 == 1
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) != NULL )
+	{
+	     return pSymbol
+	}
+
+	return NULL ;
+
+
+Mutante 5:
+idMutacao1 == 1
+idMutacao2 == 0
+idMutacao3 == 1
+
+	if ( SearchSymbol( pSymbol->GetSymbolString( )->GetLength( ) ,
+	     pSymbol->GetSymbolString( )->GetString( )) == NULL )
+	{
+	     return pSymbol
+	}
+
+	return NULL ;
+
+
+Após executar tst-smt-01.script para os cinco mutantes, todos foram "mortos".

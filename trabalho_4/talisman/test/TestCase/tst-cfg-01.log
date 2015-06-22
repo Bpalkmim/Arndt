@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:06 : Log start: EVENT
+2015/06/21-21:03:15 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:06 : !!! Start test, script file: tst-cfg-01.script
+2015/06/21-21:03:15 : !!! Start test, script file: tst-cfg-01.script
 
 // Script:    Tst-cfg-01.script
 // Author:    Arndt von Staa
@@ -51,7 +51,7 @@ TALISMAN Log file
      77 == Change a variable and write the file
      82 == Verify leakage
 
-2015/06/20-11:55:06 : !!! End of test, script file: tst-cfg-01.script
+2015/06/21-21:03:15 : !!! End of test, script file: tst-cfg-01.script
 !!! **************************************************
 
 !!! --------------------
@@ -59,4 +59,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 13  Test commands 33  Test lines 86
      Test ending condition: No failures found.
 
-2015/06/20-11:55:06 : Log end: EVENT
+2015/06/21-21:03:15 : Log end: EVENT

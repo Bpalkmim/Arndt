@@ -326,7 +326,7 @@
 	cd ..\Obj
 	LIB  @TalismanTestLib.build >> ..\sources\TalismanTestLib.err
 	copy   ..\obj\TalismanTestLib.lib  ..\..\global\lib
-        1 file(s) copied.
+        1 arquivo(s) copiado(s).
 	..\..\tools\programs\CompileBanner /cTst-lib
 
 
@@ -379,7 +379,7 @@
 	CL /Gs /D_CRT_SECURE_NO_DEPRECATE /D_DEBUG  /Fo..\Obj\  ..\sources\verifier.cpp >> ..\sources\TalismanTestDll.err
 	cd ..\Obj
 	DUMPBIN  /SYMBOLS   *.obj  /OUT:dllsymbols.txt
-Microsoft (R) COFF/PE Dumper Version 11.00.50727.1
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 	..\..\tools\programs\grdllexp  /edllsymbols.txt /stalismantestdll
@@ -395,9 +395,9 @@ Extrair API para a geração de arquivo .def para .DLL.  V1.0, 2003
 	del    ..\..\global\lib\talismantestdll.dll
 	LINK  @TalismanTestDll.build >> ..\sources\TalismanTestDll.err
 	copy   talismantestdll.lib  ..\..\global\lib
-        1 file(s) copied.
+        1 arquivo(s) copiado(s).
 	copy   talismantestdll.dll  ..\..\global\lib
-        1 file(s) copied.
+        1 arquivo(s) copiado(s).
 	..\..\tools\programs\CompileBanner /cTst-dll
 
 

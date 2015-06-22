@@ -1,9 +1,9 @@
 TALISMAN Log file
 
-2015/06/20-11:55:05 : Log start: EVENT
+2015/06/21-21:03:14 : Log start: EVENT
 
 !!! **************************************************
-2015/06/20-11:55:05 : !!! Start test, script file: tst-tsmt-02.script
+2015/06/21-21:03:14 : !!! Start test, script file: tst-tsmt-02.script
 
 // Script:    Tst-sls-01.script
 // Author:    Arndt von Staa
@@ -19,33 +19,33 @@ TALISMAN Log file
 !!!      Line 22  Number of retrieves:     0  Number of failed retrieves:     1 
 !!!      Line 22  Number of deletes:       0  Number of failed deletes:       2 
 !!!      Line 22  Numero de simbolos por lista de colisao: 
-!!!      Line 22    Lista | Numero de Simbolos 
-!!!      Line 22        0 |     1 
-!!!      Line 22        1 |     0 
-!!!      Line 22        2 |     0 
-!!!      Line 22        3 |     0 
-!!!      Line 22        4 |     0 
-!!!      Line 22        5 |     0 
-!!!      Line 22        6 |     0 
-!!!      Line 22        7 |     1 
-!!!      Line 22        8 |     0 
-!!!      Line 22        9 |     0 
-!!!      Line 22       10 |     0 
-!!!      Line 22       11 |     0 
-!!!      Line 22       12 |     0 
-!!!      Line 22       13 |     0 
-!!!      Line 22       14 |     0 
-!!!      Line 22       15 |     0 
-!!!      Line 22       16 |     0 
-!!!      Line 22       17 |     0 
-!!!      Line 22       18 |     0 
-!!!      Line 22       19 |     0 
-!!!      Line 22       20 |     0 
-!!!      Line 22       21 |     0 
-!!!      Line 22       22 |     0 
+!!!      Line 22    Lista | Simbolos 
+!!!      Line 22        0 |        1 
+!!!      Line 22        1 |        0 
+!!!      Line 22        2 |        0 
+!!!      Line 22        3 |        0 
+!!!      Line 22        4 |        0 
+!!!      Line 22        5 |        0 
+!!!      Line 22        6 |        0 
+!!!      Line 22        7 |        1 
+!!!      Line 22        8 |        0 
+!!!      Line 22        9 |        0 
+!!!      Line 22       10 |        0 
+!!!      Line 22       11 |        0 
+!!!      Line 22       12 |        0 
+!!!      Line 22       13 |        0 
+!!!      Line 22       14 |        0 
+!!!      Line 22       15 |        0 
+!!!      Line 22       16 |        0 
+!!!      Line 22       17 |        0 
+!!!      Line 22       18 |        0 
+!!!      Line 22       19 |        0 
+!!!      Line 22       20 |        0 
+!!!      Line 22       21 |        0 
+!!!      Line 22       22 |        0 
      24 == Verify leakage
 
-2015/06/20-11:55:05 : !!! End of test, script file: tst-tsmt-02.script
+2015/06/21-21:03:14 : !!! End of test, script file: tst-tsmt-02.script
 !!! **************************************************
 
 !!! --------------------
@@ -53,4 +53,4 @@ TALISMAN Log file
      Test statistics:   Test files 1  Test cases 4  Test commands 7  Test lines 28
      Test ending condition: No failures found.
 
-2015/06/20-11:55:05 : Log end: EVENT
+2015/06/21-21:03:14 : Log end: EVENT

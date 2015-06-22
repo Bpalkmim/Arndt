@@ -59,3 +59,15 @@ Completei a geração e a execução dos comandos de teste.
 Gabriel
 Completar a medição
 Criei o método para calcular as estatísticas básicas e fiz a chamada deste no módulo de teste.
+
+21/06
+1h
+Renan
+Preparar o ambiente de trabalho
+Preparei minha máquina para fazer o trabalho.
+
+21/06
+2h
+Renan
+Medir eficácia do script
+TODO
